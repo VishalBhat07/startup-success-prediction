@@ -1,0 +1,2403 @@
+[
+  {
+    "id": 1,
+    "role_level": "middle_manager",
+    "domain": "people_management",
+    "question": "My team has missed the last two sprint deadlines and morale is low. How can I address both delivery issues and team motivation?",
+    "answer": {
+      "problem_explanation": "Your team is showing signs of both process issues and emotional fatigue. Repeatedly missing sprints suggests problems with planning, estimation, or cross‑team dependencies, while low morale indicates that people feel overworked, unrecognized, or disconnected from goals. If not handled together, you risk either short‑term productivity at the cost of burnout or a culture of accepting missed commitments.",
+      "steps_to_solve": [
+        "Run a blameless retrospective focused on learning, not fault. Invite the whole team, set ground rules for psychological safety, and ask what helped, what hurt, and what should change in the next sprint.",
+        "Map the delivery issues. Look at scope changes, estimation accuracy, unplanned work, dependencies, and blockers. Quantify how much work is added mid‑sprint and how much time is lost to meetings or support.",
+        "Right‑size the next sprint. Reduce planned scope based on historical velocity and current team capacity. Make trade‑offs explicit with stakeholders so the team sees you protecting them from overcommitment.",
+        "Clarify priorities and success criteria. Ensure every story has a clear owner, definition of done, and acceptance criteria so the team is not losing time on ambiguity.",
+        "Address morale in 1:1s. Talk privately with each team member about how they feel, what frustrates them, and what would make their work more sustainable and engaging.",
+        "Increase recognition. Publicly highlight specific contributions, learning, and collaboration behaviors, not just output, so the team sees that effort and improvement are valued.",
+        "Improve collaboration with stakeholders. Share a short summary of what went wrong and what you are changing, signaling that the team is not solely to blame and that process improvements are underway.",
+        "Set a short review cycle. After one or two sprints, review metrics (velocity, spillover work, satisfaction) with the team and adjust capacity, practices, or roles again."
+      ],
+      "alternate_approaches": [
+        "Adopt a temporary Kanban‑style flow instead of strict sprints to visualize work in progress, limit WIP, and stabilize throughput before returning to sprints.",
+        "Bring in a neutral facilitator or agile coach to run a health check or retrospective if trust is low or discussions are becoming personal.",
+        "Narrow the team’s focus by explicitly pausing or deprioritizing lower‑value work for a few iterations so the team can experience some quick wins and rebuild confidence."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "role_level": "senior_manager",
+    "domain": "strategy_execution",
+    "question": "Our strategic priorities are clear on paper, but different teams interpret them differently and work on conflicting initiatives. How can I align execution across departments?",
+    "answer": {
+      "problem_explanation": "You have a strategy–execution gap where high‑level goals are not translated into consistent, coordinated plans across departments. Each team is optimizing locally, which leads to conflicting projects, duplicated effort, and diluted impact. The underlying issues are usually unclear decision rights, missing cross‑functional governance, and lack of shared metrics.",
+      "steps_to_solve": [
+        "Translate strategy into a small set of outcome‑based objectives. For each strategic pillar, define 2–4 measurable outcomes that describe what success looks like rather than just activities.",
+        "Create a cross‑functional planning workshop. Bring department leads together to map their major initiatives to the agreed objectives, highlighting overlaps, conflicts, and gaps on a shared board.",
+        "Rationalize the portfolio. Prioritize initiatives across departments based on impact, feasibility, dependencies, and capacity, and explicitly stop or postpone work that does not align with the top objectives.",
+        "Define shared metrics and KPIs. Agree on a small set of cross‑department metrics that everyone will monitor, and ensure each initiative contributes to at least one of these measures.",
+        "Clarify decision rights and owners. For each objective and key initiative, assign a single accountable owner and clearly document who decides, who is consulted, and who is informed.",
+        "Establish a regular review cadence. Set up a monthly or quarterly strategy review where leaders track progress on objectives, resolve conflicts, and adjust priorities as conditions change.",
+        "Communicate the aligned plan broadly. Share a concise narrative and visual roadmap so that individual contributors understand how their work connects to organizational outcomes.",
+        "Track and adjust. Use data and feedback from teams to refine objectives, stop low‑value projects early, and reinvest capacity in initiatives that move the shared metrics."
+      ],
+      "alternate_approaches": [
+        "Introduce an OKR (Objectives and Key Results) framework across departments to create a common language and rhythm for goal setting and alignment.",
+        "Set up a lightweight portfolio management office to coordinate strategic initiatives, manage dependencies, and provide visibility without heavy bureaucracy.",
+        "Pilot alignment in one business unit first, demonstrate impact, and then scale the approach to the rest of the organization to reduce resistance."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "role_level": "frontline_manager",
+    "domain": "performance_management",
+    "question": "One of my team members is consistently underperforming, but they are well liked by the team. How should I handle this situation fairly?",
+    "answer": {
+      "problem_explanation": "You are facing a performance issue complicated by social dynamics. Allowing underperformance to continue undermines standards and increases workload for others, but handling it clumsily can damage trust and team cohesion. The key is to separate the person’s positive relationships from the clear, observable performance expectations.",
+      "steps_to_solve": [
+        "Gather specific evidence. Collect concrete examples of missed deadlines, quality issues, or behaviors that do not meet expectations, making sure you can describe impact in factual terms.",
+        "Clarify role expectations. Review the person’s job description, goals, and any relevant standards so you have a clear baseline for the conversation.",
+        "Schedule a private, respectful meeting. Share your observations using specific examples, focusing on behaviors and impact rather than personal traits.",
+        "Invite their perspective. Ask what they think is happening, whether there are obstacles, skill gaps, or unclear expectations contributing to the issue.",
+        "Co‑create a performance improvement plan. Define 2–3 specific areas to improve, measurable targets, support you will provide (coaching, training, resources), and a realistic timeframe.",
+        "Document the plan and follow‑ups. Send a written summary after the meeting so there is a shared understanding and record of commitments.",
+        "Hold regular check‑ins. Provide timely feedback, acknowledge improvements, and address setbacks quickly rather than waiting for formal review cycles.",
+        "Plan for outcomes. If performance improves, reinforce the new behavior and adjust goals; if it does not, be prepared to follow formal HR processes."
+      ],
+      "alternate_approaches": [
+        "Partner with HR early to ensure your approach is consistent with company policies and to get support in framing conversations.",
+        "Pair the employee with a mentor or strong peer for a defined period to accelerate skill development while preserving team relationships.",
+        "Temporarily adjust responsibilities to better match their strengths while setting clear expectations about required performance in any new scope."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "role_level": "middle_manager",
+    "domain": "cross_team_collaboration",
+    "question": "Two of the teams I manage are in constant conflict over priorities and ownership. How can I reduce friction and improve collaboration?",
+    "answer": {
+      "problem_explanation": "Persistent conflict between teams usually stems from unclear boundaries, competing incentives, and misaligned priorities rather than personal incompatibility. Without intervention, this friction slows delivery, encourages blame, and discourages collaboration. The goal is to create shared goals, clear interfaces, and healthy mechanisms for resolving disagreements.",
+      "steps_to_solve": [
+        "Map responsibilities and handoffs. Work with both teams to list their core responsibilities, typical workflows, and pain points at the interfaces between them.",
+        "Clarify ownership and boundaries. Define who owns which decisions, systems, and processes, and make these decisions visible and documented.",
+        "Create shared objectives. Establish a small set of goals that require both teams to succeed, such as joint delivery milestones or shared quality metrics.",
+        "Align incentives. Ensure that performance measures and recognition for both teams reflect collaboration outcomes, not just local optimization.",
+        "Standardize collaboration rituals. Set up recurring joint planning or refinement sessions where upcoming work, dependencies, and trade‑offs are discussed openly.",
+        "Introduce a structured escalation path. Agree on how conflicts will be escalated and resolved when teams cannot reach agreement at their level.",
+        "Address interpersonal issues as needed. If there are specific individuals whose behavior escalates conflict, address that privately with coaching and feedback.",
+        "Monitor sentiment and delivery. Use surveys, retrospectives, and delivery metrics to see whether the changes are reducing friction and improving outcomes."
+      ],
+      "alternate_approaches": [
+        "Temporarily form a cross‑functional squad with members from both teams to work on a shared project and build trust through joint delivery.",
+        "Rotate liaisons or ambassadors between teams who attend each other’s standups and act as points of contact for clarifying priorities and dependencies.",
+        "If organizationally feasible, realign reporting lines or team scopes to create more natural end‑to‑end ownership and reduce cross‑team contention."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "role_level": "executive",
+    "domain": "change_management",
+    "question": "We are introducing a major process change across the organization, but employees are skeptical and managers are not actively supporting it. How can I increase adoption?",
+    "answer": {
+      "problem_explanation": "You are dealing with classic change resistance driven by uncertainty, perceived workload increase, and lack of visible leadership commitment. If skepticism and passive resistance from managers persist, the change is likely to stall or become superficial. Effective change management requires clear rationale, consistent sponsorship, and support for people adapting to new ways of working.",
+      "steps_to_solve": [
+        "Clarify and communicate the why. Develop a concise narrative that explains the problem the change solves, the benefits for the organization and employees, and the risks of not changing.",
+        "Secure visible sponsorship. Align the leadership team on the change, expectations, and non‑negotiables, and ensure they model the new behaviors in their own teams.",
+        "Engage middle managers early. Provide them with detailed briefings, space to ask questions, and guidance on how to translate the change for their teams.",
+        "Identify change champions. Select respected employees from different areas who are positive about the change and can act as local advocates and feedback channels.",
+        "Provide training and resources. Offer practical training, job aids, and support channels that help people understand exactly what will be different in their day‑to‑day work.",
+        "Start with pilots. Implement the change in a few areas first, learn from their feedback, and use tangible success stories and data to convince others.",
+        "Create feedback loops. Set up mechanisms (surveys, Q&A sessions, office hours) where employees can voice concerns and see that their input leads to adjustments.",
+        "Measure adoption and adjust. Track leading indicators such as tool usage, process adherence, and sentiment, and refine the rollout plan where adoption is lagging."
+      ],
+      "alternate_approaches": [
+        "Use a phased rollout by function or region, allowing more tailored messaging and support rather than a big‑bang change for everyone.",
+        "Tie aspects of leadership performance evaluation to their support for the change, such as inclusion of adoption metrics in their goals.",
+        "Engage an external facilitator or change specialist to run workshops and provide neutral support if internal trust in leadership is low."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "role_level": "frontline_manager",
+    "domain": "workload_management",
+    "question": "My team feels overwhelmed by constant urgent requests from other departments, and planned work keeps getting delayed. What can I do to protect their time?",
+    "answer": {
+      "problem_explanation": "Your team’s capacity is being consumed by unplanned, urgent work, which crowds out strategic or planned tasks. Over time this leads to stress, burnout, and a perception that the team never delivers on commitments. The core issue is lack of visible capacity limits, unclear intake processes, and insufficient agreement with stakeholders on prioritization.",
+      "steps_to_solve": [
+        "Quantify current workload. Track the proportion of time spent on planned work versus urgent requests over a few weeks to provide objective data.",
+        "Introduce a simple intake process. Define how new requests are submitted, what information is required, and who approves them before they reach the team.",
+        "Set visible WIP limits. Agree on a maximum number of concurrent tasks or tickets the team will handle at once, and enforce these limits transparently.",
+        "Negotiate priorities with stakeholders. Share your workload data with requesting departments and jointly agree on what gets done now, later, or not at all.",
+        "Protect focus time. Block dedicated time slots where the team works on planned work without interruption, and communicate these blocks to stakeholders.",
+        "Delegate decision‑making. Empower a small number of team members to triage and prioritize incoming requests based on agreed criteria.",
+        "Review and adjust regularly. Hold a weekly review to see whether the balance between planned and urgent work is improving and refine your limits or process.",
+        "Support the team emotionally. Acknowledge their stress, celebrate small improvements, and encourage realistic commitments rather than heroics."
+      ],
+      "alternate_approaches": [
+        "Create a separate on‑call or rotation model where one person handles urgent requests for a day or week, allowing others to focus on planned work.",
+        "Negotiate service level agreements with major stakeholder groups, defining response times and scope, so expectations are clear and enforceable.",
+        "Escalate structural issues, such as chronic understaffing or unrealistic demand, to your leadership with data‑backed recommendations."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "role_level": "middle_manager",
+    "domain": "remote_work",
+    "question": "Since moving to hybrid work, cross‑team communication has dropped and misunderstandings have increased. How can I improve collaboration in this environment?",
+    "answer": {
+      "problem_explanation": "Hybrid work often exposes weaknesses in informal communication and shared norms. Without deliberate design, information becomes fragmented, decisions are poorly documented, and people in different locations feel excluded. The challenge is to create clear communication channels, explicit norms, and inclusive practices that do not rely on physical proximity.",
+      "steps_to_solve": [
+        "Map current communication flows. Identify what information is shared where (chat, email, meetings, documents) and where misunderstandings most often occur.",
+        "Define communication norms. Agree as a leadership group on expectations for response times, use of channels, documentation of decisions, and meeting etiquette.",
+        "Standardize key routines. Introduce recurring cross‑team touchpoints, such as weekly coordination meetings or async status updates, focused on dependencies and decisions.",
+        "Promote async collaboration. Encourage use of shared documents, project boards, and recorded updates so people in different time zones or office days stay aligned.",
+        "Make meetings inclusive by design. Use agendas, shared notes, and explicit facilitation to ensure remote participants can contribute equally to in‑person attendees.",
+        "Document decisions and rationale. Capture key decisions and reasoning in a shared, searchable space so people can reference them later instead of relying on memory.",
+        "Model the behavior as a manager. Consistently use the agreed channels and norms, and positively reinforce others who follow them.",
+        "Review and refine. Collect feedback on what is working and what is not, and adjust norms and routines every few months."
+      ],
+      "alternate_approaches": [
+        "Run a short communication health survey and use the results to prioritize the most painful gaps before changing everything at once.",
+        "Pilot new collaboration practices within one cross‑functional project team, refine them, and then roll them out more widely.",
+        "Introduce digital collaboration training or coaching for managers who struggle to adapt to hybrid communication patterns."
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "role_level": "senior_manager",
+    "domain": "talent_development",
+    "question": "Our high‑potential employees say they do not see clear growth paths and are considering leaving. How can I improve career development for them?",
+    "answer": {
+      "problem_explanation": "High‑potential employees are signaling a lack of visible career paths and development opportunities, which is a leading indicator of attrition. If their needs are not addressed, you risk losing key talent and damaging your reputation as an employer. The issue typically involves unclear progression frameworks, insufficient stretch opportunities, and limited dialogue about career aspirations.",
+      "steps_to_solve": [
+        "Understand current perceptions. Run focused interviews or small group sessions with high‑potential employees to hear their concerns and aspirations in detail.",
+        "Clarify career paths. Work with HR and leaders to define transparent progression frameworks with levels, competencies, and example roles across functions.",
+        "Train managers on development conversations. Equip managers with tools and guidance to hold regular, structured career discussions with their team members.",
+        "Create structured development plans. Ask each high‑potential employee to create a plan with their manager, including skills to build, experiences to seek, and timelines.",
+        "Provide stretch opportunities. Identify projects, rotations, or special assignments that give high‑potential employees visibility and growth beyond their current role.",
+        "Increase access to mentors and sponsors. Pair high‑potential employees with senior leaders who can provide guidance and open doors to opportunities.",
+        "Track engagement and movement. Monitor internal mobility, promotion rates, and engagement scores among high‑potential employees over time.",
+        "Communicate success stories. Share examples of internal growth to demonstrate that development and advancement are real and achievable."
+      ],
+      "alternate_approaches": [
+        "Launch a formal high‑potential program with curated learning, networking, and project opportunities if your scale and budget allow.",
+        "Implement internal talent marketplaces where employees can easily find and apply for short‑term projects aligned with their growth goals.",
+        "Partner with external learning providers to offer tailored development tracks for key roles or capabilities you need to grow."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "role_level": "frontline_manager",
+    "domain": "conflict_management",
+    "question": "Two team members are in a personal conflict that is affecting meetings and collaboration. How should I intervene?",
+    "answer": {
+      "problem_explanation": "Personal conflict between team members can quickly erode trust, reduce collaboration, and make others uncomfortable. Ignoring it signals that disruptive behavior is tolerated, while intervening poorly can escalate tension. The goal is to restore a professional working relationship, even if personal rapport remains limited.",
+      "steps_to_solve": [
+        "Observe and document behaviors. Note specific incidents where the conflict shows up in work contexts, focusing on observable actions and their impact on the team.",
+        "Speak to each person individually. Share your observations, ask for their perspective, and listen without taking sides to understand underlying concerns.",
+        "Clarify expectations for professional behavior. Reinforce team norms around respect, communication, and collaboration, and explain that personal conflict cannot compromise work.",
+        "Identify common goals. Highlight shared objectives or responsibilities that require them to work together effectively.",
+        "Facilitate a joint conversation. Bring them together in a structured meeting where each can express their needs and agree on concrete behavior changes.",
+        "Agree on specific actions. For example, rules for how feedback will be given, how disagreements will be raised, and how they will communicate in meetings.",
+        "Monitor interactions and follow up. Observe meetings and check in periodically with both individuals to reinforce positive changes or address regressions.",
+        "Escalate if needed. If the conflict persists or crosses behavioral lines, involve HR or follow formal processes as appropriate."
+      ],
+      "alternate_approaches": [
+        "Use a neutral mediator, such as HR or an external facilitator, for the joint conversation if you feel too close to the situation.",
+        "Temporarily adjust work assignments to reduce friction while you address the conflict, without permanently avoiding necessary collaboration.",
+        "Run a broader session on communication norms and feedback for the whole team so improvements are not framed as only about two individuals."
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "role_level": "executive",
+    "domain": "cost_optimization",
+    "question": "Our costs have been rising faster than revenue, and the board is asking for a cost reduction plan that does not damage long‑term growth. What should I do?",
+    "answer": {
+      "problem_explanation": "You are under pressure to reduce costs while protecting the organization’s ability to grow. Reactive, across‑the‑board cuts often harm critical capabilities and morale, leading to short‑term savings but long‑term damage. A strategic approach focuses on efficiency, prioritization, and structural changes rather than indiscriminate reductions.",
+      "steps_to_solve": [
+        "Establish a clear mandate and criteria. Define cost targets, time horizons, and guiding principles, such as protecting core revenue drivers and strategic initiatives.",
+        "Analyze cost structure. Break down costs by function, product, and major category to identify where spending is concentrated and where there is flexibility.",
+        "Identify no‑regret efficiencies. Look for wasteful or low‑value activities, overlapping tools, and manual processes that can be streamlined or eliminated.",
+        "Prioritize strategic investments. Explicitly protect or even increase investment in areas critical to differentiation and future growth, such as core R&D or key customer segments.",
+        "Engage leaders in scenario planning. Ask each function to propose options with quantified impact and risks, and challenge them to rethink how work is done, not just what is cut.",
+        "Assess people impacts carefully. If headcount reductions are necessary, do them thoughtfully with clear criteria, support for affected employees, and attention to remaining team morale.",
+        "Communicate transparently. Explain the rationale, principles, and expected outcomes of the cost plan to leaders and employees to reduce rumor and anxiety.",
+        "Track impact and adjust. Monitor both financial metrics and leading indicators of customer satisfaction, quality, and employee engagement to ensure cuts are not undermining the business."
+      ],
+      "alternate_approaches": [
+        "Launch targeted productivity programs focused on automation, process redesign, or self‑service rather than immediate structural cuts.",
+        "Rebalance the portfolio by discontinuing or divesting low‑margin products or services and reallocating resources to more profitable areas.",
+        "Negotiate with suppliers and partners for better terms or collaborative cost‑reduction initiatives before making deeper internal cuts."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "role_level": "frontline_manager",
+    "domain": "onboarding",
+    "question": "New hires are taking too long to become productive, and some are disengaging early. How can I improve our onboarding process?",
+    "answer": {
+      "problem_explanation": "Ineffective onboarding leads to prolonged ramp-up times, early disengagement, and higher attrition costs. New hires often feel overwhelmed by information overload, unclear expectations, or lack of social integration, which delays their contributions and impacts team velocity.",
+      "steps_to_solve": [
+        "Map the current onboarding journey. Document every step, touchpoint, tool, and person involved from offer acceptance to first 90 days, identifying bottlenecks and gaps.",
+        "Define success milestones. Set clear, measurable 30/60/90-day goals for new hires, aligned with role expectations and team priorities.",
+        "Create a structured checklist. Build a personalized onboarding plan with daily/weekly tasks, including training, meetings, documentation access, and buddy assignments.",
+        "Assign a dedicated buddy or mentor. Pair new hires with an experienced peer for informal guidance, questions, and cultural integration, separate from their direct manager.",
+        "Prioritize hands-on learning. Schedule early wins like small projects or shadowing sessions so new hires feel productive and valued from week one.",
+        "Schedule frequent check-ins. Hold weekly 1:1s in the first month to gather feedback, address blockers, and adjust the plan as needed.",
+        "Foster team integration. Include new hires in social activities, standups, and retrospectives early to build relationships and context.",
+        "Measure and iterate. Track time-to-productivity, engagement surveys, and retention rates, then refine the process based on data and feedback."
+      ],
+      "alternate_approaches": [
+        "Implement a cohort-based onboarding for multiple hires at once, creating peer learning and shared experiences to accelerate ramp-up.",
+        "Use digital onboarding platforms with interactive modules, progress tracking, and automated reminders to scale efficiently.",
+        "Pilot a 'reverse mentoring' model where new hires share fresh perspectives on tools or processes in exchange for accelerated guidance."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "role_level": "middle_manager",
+    "domain": "stakeholder_management",
+    "question": "Key stakeholders are bypassing my team and going directly to individual contributors, causing confusion and overload. How do I regain control?",
+    "answer": {
+      "problem_explanation": "Bypassing erodes team boundaries, creates inconsistent responses, and overwhelms individuals while undermining your authority. It stems from stakeholders' urgency, perceived delays, or unclear escalation paths, leading to duplicated effort and misaligned commitments.",
+      "steps_to_solve": [
+        "Understand stakeholder needs. Meet with key stakeholders to hear their frustrations, timelines, and what they seek when bypassing the team.",
+        "Clarify intake and response SLAs. Define and communicate standard request channels, expected response times, and escalation triggers transparently.",
+        "Empower your team with guidelines. Train individuals on triage criteria, standard responses, and when to redirect requests to you or the formal process.",
+        "Build stakeholder relationships. Schedule regular updates or office hours to discuss upcoming needs, priorities, and capacity proactively.",
+        "Implement a shared request tracker. Use a visible tool where all requests are logged, prioritized, and tracked to prevent shadow processes.",
+        "Address root causes. Identify and fix internal delays, such as slow triage or poor communication, that prompt bypassing.",
+        "Reinforce boundaries consistently. Politely redirect bypassed requests back to the standard process and explain the benefits of structured intake.",
+        "Monitor and report impact. Share metrics on request volume, resolution times, and quality to demonstrate the value of your managed process."
+      ],
+      "alternate_approaches": [
+        "Create a stakeholder advisory group that meets quarterly to co-design intake improvements and build buy-in.",
+        "Offer self-service resources like FAQs, templates, or low-effort request forms to handle simple needs without team involvement.",
+        "Delegate a 'stakeholder liaison' role to a senior team member to triage and coordinate high-volume requesters."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "role_level": "senior_manager",
+    "domain": "innovation",
+    "question": "My teams are stuck in execution mode and not generating new ideas or innovation. How can I foster a culture of creativity?",
+    "answer": {
+      "problem_explanation": "Execution focus without dedicated innovation time leads to incrementalism and missed opportunities. Teams prioritize short-term delivery over experimentation due to pressure, risk aversion, and lack of structured creative space, stifling long-term growth.",
+      "steps_to_solve": [
+        "Allocate protected innovation time. Reserve 10-20% of team capacity for experimentation, with clear guidelines on what qualifies.",
+        "Define innovation guardrails. Set criteria for ideas (e.g., aligned to strategy, testable in weeks) and a lightweight proposal template.",
+        "Run structured ideation sessions. Facilitate quarterly hackathons or problem-solving workshops using techniques like design thinking or SCAMPER.",
+        "Celebrate experiments, not just outcomes. Recognize effort, learnings, and pivots publicly, regardless of success.",
+        "Provide rapid prototyping resources. Ensure access to tools, budgets, and cross-team collaboration for quick validation.",
+        "Integrate innovation into reviews. Include idea generation and experimentation in performance discussions and OKRs.",
+        "Bring external inspiration. Invite guest speakers, site visits, or competitor analyses to spark fresh thinking.",
+        "Track innovation pipeline. Maintain a visible board of ideas in progress, with metrics on experiments run and insights gained."
+      ],
+      "alternate_approaches": [
+        "Launch cross-functional 'skunkworks' teams for high-potential moonshots, insulated from day-to-day pressures.",
+        "Implement an internal idea marketplace where teams pitch concepts and secure sponsors/time from other groups.",
+        "Adopt 'innovation accounting' with metrics focused on validated learnings rather than traditional ROI."
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "role_level": "executive",
+    "domain": "crisis_response",
+    "question": "We just lost a major client unexpectedly, and revenue projections are now at risk. How do I stabilize and respond?",
+    "answer": {
+      "problem_explanation": "Sudden client loss creates immediate revenue gaps, morale hits, and opportunity for panic-driven decisions. Without a calm, structured response, small issues cascade into broader instability; the focus must be on containment, learning, and accelerated recovery.",
+      "steps_to_solve": [
+        "Assess full impact immediately. Quantify revenue hit, contract details, affected teams, and any non-compete or reference implications.",
+        "Communicate transparently and calmly. Share known facts, next steps, and 'what we don't know yet' with leadership and teams to reduce rumors.",
+        "Activate a cross-functional response team. Assemble sales, delivery, finance, and product leaders to coordinate short-term actions.",
+        "Conduct a rapid root-cause analysis. Interview stakeholders privately to understand decision factors without blame.",
+        "Accelerate pipeline conversion. Prioritize top opportunities with intensified pursuit, incentives, and resource shifts.",
+        "Protect cash flow. Review contracts, expenses, and collections rigorously while exploring bridge financing if needed.",
+        "Capture learnings systematically. Document what went wrong and create an action plan to prevent recurrence.",
+        "Rally the organization. Frame the setback as a pivot opportunity, highlighting strengths and accelerated growth paths."
+      ],
+      "alternate_approaches": [
+        "Pursue strategic account expansion in existing clients to offset the loss through upsell or cross-sell.",
+        "Launch a targeted win-back campaign if root causes are addressable and relationships remain viable.",
+        "Use the crisis to streamline operations, cutting low-value activities to create capacity for recovery."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "role_level": "middle_manager",
+    "domain": "knowledge_sharing",
+    "question": "Critical knowledge is siloed in a few individuals, creating risks when they are out or leave. How do I spread expertise?",
+    "answer": {
+      "problem_explanation": "Knowledge silos create single points of failure, bottlenecks, and fragility. When key experts are unavailable, delivery stalls and bus factor risks grow, especially during transitions or crises.",
+      "steps_to_solve": [
+        "Inventory critical knowledge. Map processes, systems, and decisions dependent on individuals, prioritizing high-risk areas.",
+        "Implement pair programming or shadowing. Mandate experts train others on live work rather than abstract documentation.",
+        "Create living documentation. Build searchable runbooks, decision logs, and video walkthroughs for key processes.",
+        "Rotate responsibilities. Cross-train by swapping owners quarterly for critical tasks to build redundancy.",
+        "Host knowledge shares. Schedule regular 'lunch and learn' sessions where experts demo skills and answer questions.",
+        "Embed knowledge in tools. Add inline help, wizards, and templates that capture best practices at the point of use.",
+        "Track knowledge health. Use checklists or audits to verify multiple people can handle each critical process.",
+        "Incentivize sharing. Recognize mentoring and documentation contributions in reviews and team recognition."
+      ],
+      "alternate_approaches": [
+        "Build a 'knowledge guild' community of practice for specific domains to facilitate organic sharing.",
+        "Use AI tools to transcribe expert sessions and generate searchable Q&A from real workflows.",
+        "Mandate 'bus factor 2' for all critical systems, enforcing certification of backups before vacations."
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "role_level": "frontline_manager",
+    "domain": "feedback_culture",
+    "question": "Team members avoid giving each other feedback, leading to repeated mistakes and unspoken tensions. How do I build a feedback habit?",
+    "answer": {
+      "problem_explanation": "Weak feedback cultures allow issues to fester, repeat, and erode performance. Fear of conflict, unclear norms, and lack of positive reinforcement create a vicious cycle where problems grow unchecked.",
+      "steps_to_solve": [
+        "Model feedback yourself. Give specific, timely feedback to individuals and the team regularly, balancing positive and constructive.",
+        "Teach feedback skills. Run a short workshop on SBI (Situation-Behavior-Impact) model and practice in pairs.",
+        "Normalize peer feedback. Introduce structured rounds in retrospectives or 1:1s for reciprocal input.",
+        "Celebrate feedback given. Publicly thank people for constructive input and highlight resulting improvements.",
+        "Lower the stakes. Start with low-risk channels like anonymous pulses or async written feedback.",
+        "Make it systematic. Add peer feedback to sprint reviews or quarterly check-ins with clear prompts.",
+        "Address misuse immediately. Coach anyone giving non-constructive feedback privately to maintain trust.",
+        "Measure progress. Track feedback volume and sentiment over time, adjusting training as needed."
+      ],
+      "alternate_approaches": [
+        "Gamify feedback with points or badges for consistent givers/receivers to build momentum.",
+        "Use 360-degree tools quarterly to provide structured, private peer input with manager facilitation.",
+        "Pair feedback with recognition rituals so it's associated with positivity, not just correction."
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "role_level": "senior_manager",
+    "domain": "vendor_management",
+    "question": "A key vendor is consistently underperforming on SLAs and responsiveness. How do I improve or exit the relationship?",
+    "answer": {
+      "problem_explanation": "Vendor underperformance cascades into your operations, risking deadlines, quality, and costs. Tolerating it signals poor standards while abrupt termination creates disruption; a structured escalation protects your interests.",
+      "steps_to_solve": [
+        "Document performance gaps. Compile SLA misses, incident logs, and business impacts with dates and evidence.",
+        "Review contract terms. Identify remedies, penalties, cure periods, and termination clauses available.",
+        "Escalate formally. Schedule a meeting with evidence, state required improvements, and set measurable recovery timelines.",
+        "Create a joint improvement plan. Co-develop specific actions, owners, milestones, and weekly progress check-ins.",
+        "Monitor rigorously. Track plan execution with shared dashboards and escalate misses immediately.",
+        "Prepare contingency. Identify backup vendors, internal workarounds, or transition plans in parallel.",
+        "Enforce consequences. Invoke penalties or partial payments if SLAs remain unmet post-cure period.",
+        "Decide and execute. If no sustained improvement, activate termination with clear communication and transition support."
+      ],
+      "alternate_approaches": [
+        "Renegotiate to variable pricing tied to performance, aligning incentives more tightly.",
+        "Bring in a neutral third-party auditor to validate issues and mediate resolution.",
+        "Transition gradually by splitting volume with a new provider during improvement period."
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "role_level": "middle_manager",
+    "domain": "diversity_inclusion",
+    "question": "Despite efforts, our team lacks diversity in gender and backgrounds. How can I build a more inclusive hiring pipeline?",
+    "answer": {
+      "problem_explanation": "Homogeneous teams limit perspectives, innovation, and market relevance. Narrow pipelines from biased sourcing or screening perpetuate the issue, requiring deliberate expansion and bias mitigation.",
+      "steps_to_solve": [
+        "Audit current pipeline. Analyze sourcing channels, screeners, and interviewers for bias patterns.",
+        "Expand sourcing channels. Target diverse networks, employee referrals, alumni groups, and affinity organizations.",
+        "Revise job descriptions. Use inclusive language tools and emphasize growth potential over years of experience.",
+        "Standardize screening. Implement structured interviews, diverse panels, and scorecards to reduce subjectivity.",
+        "Build diverse interviewer pools. Train and rotate panelists from underrepresented groups.",
+        "Track diversity metrics. Monitor applicant-to-offer ratios by demographic and adjust sourcing accordingly.",
+        "Partner with ERGs. Leverage employee resource groups for referrals and endorsement.",
+        "Communicate commitment. Publicly share goals and progress to attract diverse candidates."
+      ],
+      "alternate_approaches": [
+        "Launch returnship programs for career re-entrants to tap underrepresented talent pools.",
+        "Offer apprenticeships or rotations targeting diverse universities and bootcamps.",
+        "Incentivize referrals from diverse employees with higher bonuses or recognition."
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "role_level": "frontline_manager",
+    "domain": "time_management",
+    "question": "Meetings are consuming too much of the team's time, leaving little for deep work. How do I reclaim calendar space?",
+    "answer": {
+      "problem_explanation": "Meeting overload fragments focus, reduces output, and causes burnout. Poorly run or unnecessary sessions crowd out value-creating work, requiring ruthless pruning and discipline.",
+      "steps_to_solve": [
+        "Audit meeting load. Track all recurring meetings, attendance, and post-meeting value ratings.",
+        "Cancel or consolidate low-value meetings. Eliminate those without clear agendas, decisions, or actions.",
+        "Shorten durations. Default to 25/50-minute slots with strict timeboxing.",
+        "Require agendas and pre-reads. Mandate outcomes and materials 24 hours in advance; no prep = no attend.",
+        "Implement 'no-meeting' days. Block team focus time weekly where only emergencies interrupt.",
+        "Delegate appropriately. Send clear delegates with decision rights or async updates.",
+        "End with crisp outcomes. Assign owners, deadlines, and follow-ups every time.",
+        "Review quarterly. Reassess necessity and format based on evolving needs."
+      ],
+      "alternate_approaches": [
+        "Adopt async standups via video updates to replace daily syncs.",
+        "Use representative attendance (one per role) for large meetings with full-team summaries.",
+        "Experiment with 'meeting budgets' allocating fixed hours per person per week."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "role_level": "executive",
+    "domain": "succession_planning",
+    "question": "We lack ready-now successors for several critical roles. How do I accelerate leadership bench strength?",
+    "answer": {
+      "problem_explanation": "Shallow benches create promotion bottlenecks, retention risks, and crisis vulnerability. Without deliberate development, high-potentials stagnate and external hires become the default.",
+      "steps_to_solve": [
+        "Identify critical roles. Map positions with high impact, turnover risk, or succession gaps.",
+        "Assess current talent. Rate readiness (now, 12-24 months) using 9-box grids and input from multiple leaders.",
+        "Prioritize development targets. Focus on top 20-30% with potential matching critical role needs.",
+        "Create accelerated plans. Assign stretch roles, mentors, and 6-month milestones for each successor.",
+        "Expand experiences deliberately. Rotate across functions, lead cross-group projects, or handle crises.",
+        "Invest in leadership skills. Provide executive coaching, 360 feedback, and targeted training.",
+        "Monitor progress rigorously. Quarterly reviews against milestones with course corrections.",
+        "Build a talent mobility culture. Normalize internal moves with clear processes and manager accountability."
+      ],
+      "alternate_approaches": [
+        "Run formal leadership acceleration programs with cohorts, rotations, and assessments.",
+        "Create interim 'acting' roles to test successors in live scenarios with support.",
+        "Partner with executive search for benchmarking while prioritizing 70% internal promotions."
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "role_level": "frontline_manager",
+    "domain": "delegation",
+    "question": "I am overwhelmed with tasks and cannot delegate effectively because team members lack confidence or skills. How do I fix this?",
+    "answer": {
+      "problem_explanation": "Over-reliance on yourself creates bottlenecks, burnout, and stunted team growth. Team hesitation often stems from unclear instructions, fear of failure, or underdeveloped skills, perpetuating a cycle of micromanagement.",
+      "steps_to_solve": [
+        "Inventory your tasks. List everything on your plate, categorize by impact/urgency, and identify what others could handle with guidance.",
+        "Assess team readiness. Match tasks to individuals based on their strengths, experience gaps, and development needs.",
+        "Delegate with clarity. Use the 'DACI' framework (Driver, Approver, Contributors, Informed) to define roles, success criteria, and check-in points.",
+        "Provide upfront support. Break tasks into steps, share templates/examples, and offer initial coaching sessions.",
+        "Set them up for success. Give autonomy within boundaries, access to resources, and permission to make decisions.",
+        "Check in progressively. Start with frequent touchpoints, then reduce as confidence builds, focusing on outcomes not methods.",
+        "Debrief and celebrate. Review what worked, what to improve, and recognize successful handoffs publicly.",
+        "Build delegation muscle. Gradually increase task complexity and repeat the cycle to develop ownership."
+      ],
+      "alternate_approaches": [
+        "Run delegation workshops where team members practice handing off their own tasks to peers.",
+        "Create a 'skill swap' rotation pairing experienced and junior members on shared responsibilities.",
+        "Use a delegation scorecard to track handoffs, outcomes, and team capability growth over time."
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "role_level": "middle_manager",
+    "domain": "project_delivery",
+    "question": "Projects are starting strong but losing momentum midway, missing deadlines. How do I sustain delivery?",
+    "answer": {
+      "problem_explanation": "Mid-project stalls often result from scope creep, resource fatigue, or shifting priorities, eroding initial enthusiasm and leading to rushed finishes or failures.",
+      "steps_to_solve": [
+        "Define project guardrails upfront. Lock scope, milestones, and success metrics with stakeholder sign-off.",
+        "Break into phases with gates. Require reviews at 25%, 50%, 75% completion before proceeding.",
+        "Track velocity weekly. Monitor progress against plan using burndown charts and flag variances early.",
+        "Conduct mid-project health checks. Assess risks, morale, blockers, and adjustments needed.",
+        "Re-engage stakeholders regularly. Share crisp updates on wins, risks, and trade-offs to maintain alignment.",
+        "Protect team focus. Shield from distractions and reinforce 'done is better than perfect' mindset.",
+        "Plan for the last mile. Allocate buffer for integration, testing, and handoff explicitly.",
+        "Capture lessons post-mortem. Document what caused stalls for future projects."
+      ],
+      "alternate_approaches": [
+        "Adopt timeboxing with fixed end dates and variable scope to force prioritization.",
+        "Introduce 'momentum sprints'—short, high-energy pushes at stall points with fresh incentives.",
+        "Assign a dedicated project shepherd role to monitor health independently."
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "role_level": "senior_manager",
+    "domain": "budget_planning",
+    "question": "My department's budget requests are routinely cut, and we struggle to justify investments. How do I improve funding success?",
+    "answer": {
+      "problem_explanation": "Weak budget cases fail to connect spends to business outcomes, appearing as costs rather than value creators amid competing priorities.",
+      "steps_to_solve": [
+        "Align to corporate goals. Frame every request around strategic objectives with quantifiable links.",
+        "Build business cases with ROI. Project revenues, savings, or risk reductions using conservative assumptions.",
+        "Benchmark externally. Gather industry data on spend levels and outcomes for credibility.",
+        "Prioritize ruthlessly. Rank initiatives by impact/feasibility and propose a staged portfolio.",
+        "Pilot high-risk asks. Propose small proofs-of-concept to demonstrate early value.",
+        "Prepare for scrutiny. Anticipate questions with data backups, scenarios, and fallback options.",
+        "Track post-approval impact. Deliver quarterly ROI reports to build trust for next cycles.",
+        "Coalition-build early. Secure peer endorsements before formal submission."
+      ],
+      "alternate_approaches": [
+        "Shift to outcome-based budgeting tied to KPIs rather than fixed line items.",
+        "Trade-offs explicit: propose cuts elsewhere to fund priorities.",
+        "Crowdsource ideas from finance for 'investment-ready' framing."
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "role_level": "executive",
+    "domain": "merger_integration",
+    "question": "Post-merger, cultural clashes are slowing integration and causing talent flight. How do I unify teams?",
+    "answer": {
+      "problem_explanation": "Unchecked cultural differences breed 'us vs. them' mentalities, resistance, and exits, derailing merger value through friction and lost expertise.",
+      "steps_to_solve": [
+        "Assess cultures objectively. Use surveys and interviews to map values, norms, and pain points.",
+        "Define shared culture. Co-create 3-5 unifying principles with leaders from both sides.",
+        "Lead by joint example. Form cross-company leadership teams modeling collaboration.",
+        "Prioritize quick wins. Identify shared projects delivering visible value fast.",
+        "Communicate relentlessly. Share integration roadmap, progress, and stories of success.",
+        "Retain key talent. Identify flight risks, offer retention incentives, and clarify roles.",
+        "Train on integration. Run workshops on bridging styles and feedback norms.",
+        "Measure sentiment quarterly. Track engagement and adjust based on feedback."
+      ],
+      "alternate_approaches": [
+        "Create 'cultural ambassadors' pairs from each side for mutual immersion.",
+        "Hold offsite unification events blending rituals from both cultures.",
+        "Phase integration by function to control pace and learn iteratively."
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "role_level": "middle_manager",
+    "domain": "risk_management",
+    "question": "Technical debt is accumulating, risking outages or compliance issues. How do I address it without derailing features?",
+    "answer": {
+      "problem_explanation": "Unmanaged debt compounds, slowing velocity and amplifying failure risks, but ignoring features erodes revenue—requiring balanced repayment.",
+      "steps_to_solve": [
+        "Quantify debt impact. Measure cycle time slowdowns, bug rates, and outage costs.",
+        "Prioritize debt backlog. Score items by risk, business impact, and fix effort.",
+        "Allocate debt budget. Reserve 20% of sprint capacity explicitly for refactoring.",
+        "Integrate into planning. Treat debt as stories with acceptance criteria.",
+        "Automate where possible. Invest in tests, CI/CD to prevent new debt.",
+        "Communicate trade-offs. Make debt vs. features visible to stakeholders.",
+        "Track repayment metrics. Monitor tech health scores and velocity gains.",
+        "Celebrate debt wins. Recognize refactoring contributions equally."
+      ],
+      "alternate_approaches": [
+        "Debt swaps: trade feature delays for debt paydown with stakeholder buy-in.",
+        "Hackathons dedicated to high-impact refactoring bursts.",
+        "Hire specialist contractors for surgical debt removal."
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "role_level": "frontline_manager",
+    "domain": "motivation",
+    "question": "Remote team members seem disengaged and productivity is dipping. How do I re-energize them?",
+    "answer": {
+      "problem_explanation": "Remote isolation erodes connection, purpose, and accountability, leading to drift without deliberate reconnection efforts.",
+      "steps_to_solve": [
+        "Run engagement pulse. Survey anonymously on motivation drivers and blockers.",
+        "Reconnect personally. Schedule casual 1:1 video coffees sharing non-work updates.",
+        "Reinforce purpose. Link individual work to team/org impact in every standup.",
+        "Gamify goals. Introduce points, leaderboards for milestones with fun rewards.",
+        "Virtual team rituals. Weekly wins shares, trivia, or themed backgrounds.",
+        "Flex autonomy. Offer choice in tasks, hours, tools to boost ownership.",
+        "Recognition cadence. Peer shoutouts in async channels daily.",
+        "Address root issues. Tackle workload, clarity, or skill gaps from survey."
+      ],
+      "alternate_approaches": [
+        "Virtual reality offsites for immersive team-building.",
+        "Personal growth stipends for courses tied to engagement.",
+        "Cross-team buddy system for accountability pairs."
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "role_level": "senior_manager",
+    "domain": "customer_feedback",
+    "question": "Customer complaints are rising despite stable metrics. How do I uncover and fix underlying issues?",
+    "answer": {
+      "problem_explanation": "Metrics miss qualitative pain, letting frustrations build until they erupt, damaging loyalty without early signals.",
+      "steps_to_solve": [
+        "Deep-dive complaints. Categorize by theme, frequency, and customer segment.",
+        "Interview customers. Call top complainers for unfiltered stories.",
+        "Map journeys. Trace complaints back to touchpoints and process gaps.",
+        "Cross-team war room. Analyze with product, support, ops for root causes.",
+        "Prioritize fixes. Score by volume, severity, fix cost.",
+        "Test changes. Pilot with subset of customers, measure sentiment lift.",
+        "Close loops. Follow-up with complainers on resolutions.",
+        "Embed feedback loops. Weekly reviews of new signals."
+      ],
+      "alternate_approaches": [
+        "Customer advisory boards for proactive input.",
+        "AI sentiment analysis on support tickets/emails.",
+        "Win-back campaigns turning detractors to advocates."
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "role_level": "middle_manager",
+    "domain": "training_investment",
+    "question": "Team skills are outdated for new tech, but training takes time away from delivery. How do I justify and execute upskilling?",
+    "answer": {
+      "problem_explanation": "Skill gaps slow adaptation and innovation while training diverts capacity, needing targeted, measured approaches.",
+      "steps_to_solve": [
+        "Gap analysis. Assess current vs. needed skills by role/project.",
+        "ROI projections. Estimate productivity gains post-training.",
+        "Micro-learning paths. 1-2 hour modules tied to immediate tasks.",
+        "Hands-on labs. Project-based learning during sprints.",
+        "Vendor trials. Free POCs from tool providers.",
+        "Internal experts. Peer-led brown bags on new tech.",
+        "Measure uplift. Pre/post skill tests and velocity delta.",
+        "Certify incrementally. Tie to promotions/recognition."
+      ],
+      "alternate_approaches": [
+        "Bootcamps: intensive 1-week immersions.",
+        "Hackathons with new tech mandates.",
+        "Pair external hires with veterans for dual upskill."
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "role_level": "frontline_manager",
+    "domain": "decision_making",
+    "question": "Team debates drag on endlessly without closure. How do I accelerate decisions?",
+    "answer": {
+      "problem_explanation": "Analysis paralysis wastes time and frustrates, stemming from unclear authority, poor framing, or fear of error.",
+      "steps_to_solve": [
+        "Set decision frameworks. Use RACI for every discussion.",
+        "Timebox debates. 30-min max, then decide with available info.",
+        "Distinguish reversible. Quick calls on low-stakes items.",
+        "Pre-work required. Options + pros/cons before meetings.",
+        "Designate deciders. Clear 'who calls it' upfront.",
+        "Post-decision reviews. Learn only after action.",
+        "Celebrate bold calls. Recognize good-enough decisions.",
+        "Escalate patterns. Coach chronic debaters privately."
+      ],
+      "alternate_approaches": [
+        "Silent voting tools for quick consensus.",
+        "Decision journals logging rationale for reflection.",
+        "90% rule: decide if >90% alignment."
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "role_level": "executive",
+    "domain": "scaling_operations",
+    "question": "Processes that worked at 50 people are breaking at 500. How do I redesign for scale?",
+    "answer": {
+      "problem_explanation": "Ad-hoc systems fail at volume, creating chaos, errors, and hero dependence without standardization.",
+      "steps_to_solve": [
+        "Map as-is flows. Document pain points at scale.",
+        "Design to principles. Simplicity, automation, self-service.",
+        "Standardize core. Define SOPs for high-volume processes.",
+        "Automate ruthlessly. RPA, workflows for repetitive tasks.",
+        "Decentralize execution. Empower with tools/guidelines.",
+        "Platform enablement. Self-serve portals over tickets.",
+        "Pilot rigorously. Test in one org unit first.",
+        "Change management. Train, communicate, measure adoption."
+      ],
+      "alternate_approaches": [
+        "Zero-based redesign ignoring legacy.",
+        "Buy vs build: SaaS for non-core.",
+        "Center of excellence owning evolution."
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "role_level": "frontline_manager",
+    "domain": "goal_setting",
+    "question": "Team goals are too vague, leading to misaligned efforts and frustration. How do I make them effective?",
+    "answer": {
+      "problem_explanation": "Vague goals create ambiguity, wasted effort, and demotivation as team members chase different interpretations of success. Without specificity and alignment, progress stalls and accountability fades.",
+      "steps_to_solve": [
+        "Collaborate on goal creation. Hold a team workshop to brainstorm priorities tied to organizational objectives.",
+        "Apply SMART criteria. Ensure goals are Specific, Measurable, Achievable, Relevant, and Time-bound.",
+        "Break into quarterly milestones. Define 3-5 key outcomes with weekly checkpoints for early adjustments.",
+        "Align individually. Cascade goals into personal OKRs during 1:1s, linking to their strengths and growth.",
+        "Visualize progress. Use shared dashboards or boards showing real-time status and blockers.",
+        "Review weekly. Dedicate 15 minutes in standups to goal updates and course corrections.",
+        "Celebrate milestones. Recognize partial wins to maintain momentum and morale.",
+        "Refine annually. Gather retrospective feedback to improve the goal-setting process."
+      ],
+      "alternate_approaches": [
+        "Adopt OKR framework with ambitious stretch goals and graded scoring for flexibility.",
+        "Use weighted scoring to prioritize among competing team initiatives.",
+        "Implement rolling quarterly goals for agility in fast-changing environments."
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "role_level": "middle_manager",
+    "domain": "team_restructuring",
+    "question": "I need to reorganize my team for better efficiency, but people resist change. How do I execute smoothly?",
+    "answer": {
+      "problem_explanation": "Restructuring disrupts routines and triggers fears of lost status or increased workload, leading to resistance and productivity dips if not managed transparently.",
+      "steps_to_solve": [
+        "Define clear rationale. Articulate business drivers, new structure benefits, and success metrics upfront.",
+        "Map impacts individually. Assess how each role changes, identifying winners, neutrals, and those affected.",
+        "Communicate early and often. Hold all-hands with Q&A, then personalized 1:1s for details.",
+        "Involve key influencers. Seek input from respected team members to co-shape elements.",
+        "Provide transition support. Offer training, shadowing, and temporary dual roles where needed.",
+        "Set quick wins. Assign early projects leveraging the new structure for visible progress.",
+        "Monitor sentiment. Run anonymous pulses and address concerns promptly.",
+        "Review at 90 days. Measure outcomes against goals and adjust as needed."
+      ],
+      "alternate_approaches": [
+        "Phase changes by cohort to minimize disruption and learn iteratively.",
+        "Create 'structure ambassadors' from the team to explain and gather feedback.",
+        "Tie to growth opportunities, framing as career expansion rather than shuffle."
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "role_level": "senior_manager",
+    "domain": "cross_functional_alignment",
+    "question": "Engineering and sales teams blame each other for missed targets. How do I break the silo mentality?",
+    "answer": {
+      "problem_explanation": "Siloed incentives foster blame cycles where local optimization undermines shared goals, eroding trust and joint performance.",
+      "steps_to_solve": [
+        "Jointly define shared KPIs. Create metrics where both teams win together, like customer success scores.",
+        "Run cross-team workshops. Map end-to-end customer journeys to reveal interdependencies.",
+        "Form rotating embeds. Place sales reps in engineering standups and vice versa weekly.",
+        "Align incentives. Include collaboration goals in individual performance plans.",
+        "Facilitate blame-free retros. Focus on system fixes, not finger-pointing.",
+        "Celebrate joint wins publicly. Highlight stories of successful collaboration.",
+        "Escalate to executives. Secure unified messaging from leadership.",
+        "Track relationship health. Measure via NPS-style surveys between functions."
+      ],
+      "alternate_approaches": [
+        "Launch cross-functional SWAT teams for priority deals to build habits.",
+        "Co-located war rooms for major launches blending both groups.",
+        "Shared revenue pools rewarding collective outcomes."
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "role_level": "executive",
+    "domain": "market_entry",
+    "question": "We're entering a new market but lack local insights and partnerships. How do I de-risk the launch?",
+    "answer": {
+      "problem_explanation": "Blind expansion risks missteps in regulations, customer needs, and competition, wasting resources without local intelligence.",
+      "steps_to_solve": [
+        "Conduct market immersion. Hire local advisors and run customer discovery interviews.",
+        "Build partner ecosystem. Identify and pilot 2-3 distributors or alliances.",
+        "Test via MVP. Launch minimum viable product in one segment for learnings.",
+        "Adapt go-to-market. Customize pricing, messaging, and channels based on feedback.",
+        "Secure regulatory compliance. Engage local legal early for hurdles.",
+        "Staff with hybrids. Recruit locals into core team for cultural fluency.",
+        "Set phased KPIs. Focus on learnings first, then revenue ramps.",
+        "Exit criteria clear. Define kill switches based on early signals."
+      ],
+      "alternate_approaches": [
+        "Joint ventures with established locals sharing risks/rewards.",
+        "Incubate via acquisitions of small regional players.",
+        "Franchise model leveraging partner execution."
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "role_level": "middle_manager",
+    "domain": "automation",
+    "question": "Manual processes are error-prone and scaling poorly. How do I prioritize and implement automation?",
+    "answer": {
+      "problem_explanation": "Manual work creates bottlenecks, errors, and overtime as volume grows, diverting talent from value-add activities.",
+      "steps_to_solve": [
+        "Audit high-pain processes. Score by volume, error rate, and cycle time impact.",
+        "Prioritize ROI candidates. Target 80/20 opportunities with quick wins.",
+        "Prototype no-code first. Use tools like Zapier or Airtable for MVPs.",
+        "Involve end-users. Co-design to ensure adoption and capture nuances.",
+        "Pilot small. Automate one team/department, measure before/after.",
+        "Train and hand off. Document for self-service maintenance.",
+        "Scale iteratively. Add features based on usage data.",
+        "Monitor ROI. Track time saved, error reduction quarterly."
+      ],
+      "alternate_approaches": [
+        "Citizen developer program empowering power users.",
+        "RPA bots for legacy systems unsuited to rebuild.",
+        "Buy SaaS with APIs over custom builds."
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "role_level": "frontline_manager",
+    "domain": "burnout_prevention",
+    "question": "Team burnout symptoms are rising—fatigue, errors, absences. How do I intervene proactively?",
+    "answer": {
+      "problem_explanation": "Unchecked overload leads to cascading failures in quality, retention, and innovation, often hitting before warnings are heeded.",
+      "steps_to_solve": [
+        "Spot early signals. Track overtime, error spikes, engagement dips via pulses.",
+        "Audit workloads. Map capacity vs. demand, flagging chronic overloads.",
+        "Enforce boundaries. No after-hours responses, protected recharge time.",
+        "Right-size commitments. Negotiate scope reductions with stakeholders.",
+        "Build recovery rituals. Mandatory days off, team wellness check-ins.",
+        "Recharge activities. Subsidize classes, walks, or hobby time.",
+        "Lead by example. Share your own boundaries visibly.",
+        "Sustain monitoring. Monthly health dashboards and interventions."
+      ],
+      "alternate_approaches": [
+        "Four-day weeks pilots for high-burnout teams.",
+        "Wellness buddies pairing for mutual check-ins.",
+        "Capacity trading across teams for peaks."
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "role_level": "senior_manager",
+    "domain": "product_prioritization",
+    "question": "Everyone wants different features, overwhelming the roadmap. How do I decide what ships?",
+    "answer": {
+      "problem_explanation": "Feature sprawl dilutes focus, delays value delivery, and frustrates users waiting on priorities.",
+      "steps_to_solve": [
+        "Gather all requests. Centralize in one tool with customer impact data.",
+        "Score rigorously. Use ICE (Impact, Confidence, Ease) or RICE framework.",
+        "Customer discovery. Validate top ideas via interviews or prototypes.",
+        "Timebox roadmaps. Quarterly themes with 3-5 bets max.",
+        "Stakeholder alignment. Review sessions with transparent scoring.",
+        "Say no clearly. Explain rejects with data and alternatives.",
+        "Measure post-ship. Track adoption to refine future scoring.",
+        "Repeat quarterly. Make prioritization a cadence."
+      ],
+      "alternate_approaches": [
+        "Buy-build-borrow matrix assessing alternatives.",
+        "Customer voting portals for democratic input.",
+        "Weighted shortest job first for throughput."
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "role_level": "middle_manager",
+    "domain": "compliance_training",
+    "question": "Compliance violations are occurring despite annual trainings. How do I embed it daily?",
+    "answer": {
+      "problem_explanation": "Check-the-box training fails to change habits, risking fines and reputational damage amid daily pressures.",
+      "steps_to_solve": [
+        "Risk-map hotspots. Identify violation-prone processes/workflows.",
+        "Embed in tools. Inline prompts, wizards enforcing rules.",
+        "Micro-nudges. Daily tips, pop-ups at decision points.",
+        "Role-based sims. Interactive scenarios in onboarding/refresher.",
+        "Peer accountability. Team huddles reviewing recent cases.",
+        "Just-culture reporting. Reward early flags without punishment.",
+        "Leader rounding. Managers spot-check adherence casually.",
+        "Audit loops. Random reviews with immediate coaching."
+      ],
+      "alternate_approaches": [
+        "Gamified compliance quests with leaderboards.",
+        "AI co-pilots flagging risks in real-time.",
+        "Cross-training rotating compliance champions."
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "role_level": "frontline_manager",
+    "domain": "handoffs",
+    "question": "Knowledge drops during project handoffs to support, causing escalations. How do I improve transitions?",
+    "answer": {
+      "problem_explanation": "Poor handoffs create support burdens, rework, and finger-pointing, eroding efficiency post-delivery.",
+      "steps_to_solve": [
+        "Standardize handoff checklist. Docs, training, FAQs mandatory.",
+        "Joint shadowing. Dev/support pair on first week of issues.",
+        "Success criteria upfront. Define support-ready thresholds.",
+        "Knowledge transfer sessions. Live demos, Q&A recordings.",
+        "Post-handoff review. 30-day retro on gaps.",
+        "Self-serve first. Build robust internal docs/portals.",
+        "Escalation SLAs. Clear paths if handoff fails.",
+        "Incentivize quality. Tie to team metrics."
+      ],
+      "alternate_approaches": [
+        "Embedded support during final sprints.",
+        "Rotating dev-to-support assignments.",
+        "Automated handoff gates in CI/CD."
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "role_level": "executive",
+    "domain": "employee_engagement",
+    "question": "Engagement surveys show declining scores despite raises. How do I diagnose and reverse the trend?",
+    "answer": {
+      "problem_explanation": "Money solves hygiene but not belonging, growth, or purpose, leading to quiet quitting amid surface fixes.",
+      "steps_to_solve": [
+        "Deep-dive themes. Break scores by demographics, managers, functions.",
+        "Focus groups. Uncover stories behind quantitative dips.",
+        "Manager enablement. Train on listening, action planning.",
+        "Quick wins first. Address low-hanging policy or process fixes.",
+        "Belonging initiatives. ERGs, cross-team projects, recognition.",
+        "Growth paths. Internal mobility, learning stipends.",
+        "Purpose refresh. Re-link work to mission impact.",
+        "Close loops. Share progress townhalls quarterly."
+      ],
+      "alternate_approaches": [
+        "Stay interviews with top talent preemptively.",
+        "Engagement pods owning interventions per theme.",
+        "Third-party pulse benchmarking externally."
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "role_level": "frontline_manager",
+    "domain": "remote_collaboration",
+    "question": "Hybrid meetings feel unbalanced with remote participants getting sidelined. How do I make them equitable?",
+    "answer": {
+      "problem_explanation": "Remote participants experience exclusion through poor audio, overlooked input, or visual bias toward in-office attendees, eroding inclusion and effectiveness.",
+      "steps_to_solve": [
+        "Designate a remote advocate. Assign someone to monitor chat, call out remote speakers, and ensure equal airtime.",
+        "Use inclusive tech setup. Cameras at eye level, single speaker view, and noise-canceling for all.",
+        "Structure participation. Round-robin check-ins, polls, and shared agendas with timed slots.",
+        "Record and async-first. Share recordings, notes, and decisions so absentees contribute equally.",
+        "Hybrid ground rules. Agree on 'pass the mic' etiquette and mute defaults upfront.",
+        "Rotate facilitation. Alternate between remote and in-office leads to build empathy.",
+        "Post-meeting pulse. Quick feedback on inclusion to refine format.",
+        "Test formats quarterly. Experiment with fully virtual or co-located alternatives."
+      ],
+      "alternate_approaches": [
+        "All-virtual default regardless of location to level the field.",
+        "Breakout rooms mixing hybrid attendees for balanced small groups.",
+        "AI transcription with speaker attribution for equal voice tracking."
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "role_level": "middle_manager",
+    "domain": "metrics_overload",
+    "question": "The team is buried in KPIs but core priorities slip. How do I simplify measurement?",
+    "answer": {
+      "problem_explanation": "Metric proliferation dilutes focus, gaming behavior, and decision paralysis, obscuring true progress amid noise.",
+      "steps_to_solve": [
+        "Audit all metrics. Categorize by signal value, actionability, and staleness.",
+        "Prune to 3-5 key ones. Tie directly to strategy with owner accountability.",
+        "Define leading indicators. Track inputs predicting outcomes, not just lagging results.",
+        "Automate dashboards. Single source of truth with real-time updates.",
+        "Weekly metric huddles. 15-min reviews focused on variances and actions.",
+        "Retire unused metrics. Explicitly sunset and communicate deprioritization.",
+        "Align incentives. Base recognition on chosen KPIs only.",
+        "Annual refresh. Reassess based on strategy shifts."
+      ],
+      "alternate_approaches": [
+        "OKR scoring with simple 0-1 scales over complex dashboards.",
+        "North Star metric cascading to all levels.",
+        "Pulse qualitative signals alongside quantitative."
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "role_level": "senior_manager",
+    "domain": "internal_promotions",
+    "question": "Top performers stagnate waiting for openings. How do I accelerate internal mobility?",
+    "answer": {
+      "problem_explanation": "Blocked paths breed frustration and external poaching, wasting development investments without fluid movement.",
+      "steps_to_solve": [
+        "Map talent supply-demand. Identify surpluses and gaps across roles.",
+        "Build internal marketplace. Job board with skill-matched recommendations.",
+        "Standardize transitions. 30-60 day notice, knowledge transfer protocols.",
+        "Manager accountability. Tie to filling from within targets.",
+        "Stretch assignments first. Test readiness via projects before formal moves.",
+        "Learning paths visible. Map skills needed for target roles.",
+        "Alumni networks. Track and rehire boomerang talent.",
+        "Celebrate moves. Public recognition of internal success stories."
+      ],
+      "alternate_approaches": [
+        "Gig economy model with short-term project swaps.",
+        "Dual career ladders for technical vs. management tracks.",
+        "Rotation sabbaticals mandating cross-function exposure."
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "role_level": "executive",
+    "domain": "regulatory_change",
+    "question": "New regulations require major compliance overhauls with tight deadlines. How do I mobilize?",
+    "answer": {
+      "problem_explanation": "Reactive compliance drains resources and risks penalties, diverting from strategy without proactive embedding.",
+      "steps_to_solve": [
+        "Form war room. Cross-functional team with daily standups.",
+        "Gap analysis sprint. Map requirements to current state.",
+        "Prioritize violations. Phase 1: must-haves by deadline.",
+        "Automate controls. Embed checks in workflows/tools.",
+        "Train just-in-time. Micro-modules tied to affected processes.",
+        "Test rigorously. Mock audits and penetration testing.",
+        "Vendor alignment. Contractual compliance clauses.",
+        "Post-deadline monitoring. Continuous audits and updates."
+      ],
+      "alternate_approaches": [
+        "External compliance accelerators or consultants.",
+        "Regulatory sandbox pilots for phased rollout.",
+        "Blockchain for audit-proof tracking."
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "role_level": "middle_manager",
+    "domain": "documentation_decay",
+    "question": "Outdated docs cause constant questions and ramp-up delays. How do I maintain living knowledge?",
+    "answer": {
+      "problem_explanation": "Stale documentation creates support burdens and onboarding friction as reality diverges from records.",
+      "steps_to_solve": [
+        "Prioritize high-traffic docs. Identify most-queried via search logs.",
+        "Ownership model. Assign doc stewards per section with update cadences.",
+        "Inline editing. Wiki-style with version history and notifications.",
+        "Auto-sync from code. Generate API docs from source.",
+        "Contribution incentives. Count doc work in performance reviews.",
+        "Freshness audits. Quarterly scans for outdated links/references.",
+        "User feedback loops. Thumbs up/down with comment capture.",
+        "AI-assisted updates. Tools suggesting refreshes from tickets."
+      ],
+      "alternate_approaches": [
+        "Video micros over text for processes.",
+        "Chatbot knowledge base from conversation mining.",
+        "Mandatory doc PRs with code changes."
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "role_level": "frontline_manager",
+    "domain": "interruptions",
+    "question": "Constant pings fragment focus and slow deep work. How do I protect maker time?",
+    "answer": {
+      "problem_explanation": "Interrupt-driven cultures kill productivity and innovation, trapping teams in reactive firefighting.",
+      "steps_to_solve": [
+        "Classify work modes. Maker (deep) vs. manager (responsive) time.",
+        "Block sacred focus hours. Shared calendar with auto-decline rules.",
+        "Async communication norms. Slack threads over @here pings.",
+        "Triage channels. Urgent Slack, important email, routine tickets.",
+        "Batch responses. Designated windows 2-3x daily.",
+        "Status signals. Away messages or Do Not Disturb indicators.",
+        "Train requesters. Educate on self-serve first.",
+        "Measure reclaim. Track task completion rates pre/post."
+      ],
+      "alternate_approaches": [
+        "Office hours for synchronous help.",
+        "FAQ bot deflecting common asks.",
+        "Quiet hours org-wide."
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "role_level": "senior_manager",
+    "domain": "partner_relationships",
+    "question": "Strategic partners underdeliver on commitments. How do I strengthen or renegotiate?",
+    "answer": {
+      "problem_explanation": "Weak partnerships drain value through misaligned incentives and poor execution, needing reset without burning bridges.",
+      "steps_to_solve": [
+        "Review contracts jointly. Highlight mutual gaps and wins.",
+        "Executive alignment. CEO-level reset on vision and KPIs.",
+        "Joint business planning. Co-own quarterly roadmaps.",
+        "Performance dashboards. Real-time shared metrics.",
+        "Escalation protocols. Clear paths from reps to execs.",
+        "Value exchange audit. Ensure balanced contributions.",
+        "Incentivize deeply. Tie revenue share to outcomes.",
+        "Exit ramps planned. Graceful off-ramps if unfixable."
+      ],
+      "alternate_approaches": [
+        "Co-innovation labs blending teams.",
+        "Revenue-aligned pricing models.",
+        "Multi-partner diversification."
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "role_level": "middle_manager",
+    "domain": "experiment_culture",
+    "question": "Teams fear failure and avoid testing bold ideas. How do I encourage experimentation?",
+    "answer": {
+      "problem_explanation": "Risk aversion breeds mediocrity as fear of blame stifles innovation without psychological safety.",
+      "steps_to_solve": [
+        "Celebrate learnings. Reward hypotheses tested, not just hits.",
+        "Standard experiment template. Hypothesis, metrics, timeline.",
+        "Dedicated test budget. Ringfenced capacity/resources.",
+        "Failure post-mortems. Blameless analysis of flops.",
+        "Portfolio approach. Run 70% sure bets, 20% risky, 10% wild.",
+        "Showcase experiments. Monthly demos regardless of outcome.",
+        "Safe space pilots. Low-stakes sandboxes first.",
+        "Metrics evolve. Early focus on validated learning."
+      ],
+      "alternate_approaches": [
+        "Innovation bounties with cash prizes.",
+        "Cross-pollination rotations to teams.",
+        "External hackathon partnerships."
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "role_level": "frontline_manager",
+    "domain": "scope_creep",
+    "question": "Projects balloon mid-way from stakeholder adds, blowing budgets. How do I control changes?",
+    "answer": {
+      "problem_explanation": "Uncontrolled scope erodes margins and deadlines as 'small' requests compound without governance.",
+      "steps_to_solve": [
+        "Baselined sign-off. Formal approval of scope, budget, timeline.",
+        "Change request process. Form with impact assessment required.",
+        "Visible trade-offs. Any add requires explicit cut elsewhere.",
+        "Stakeholder comms. Weekly scope freeze reminders.",
+        "Buffer explicitly. 20% contingency for approved changes only.",
+        "Post-change reviews. Analyze impact of approved ones.",
+        "Contract clauses. Penalties for client-driven creep.",
+        "Prioritization matrix. New asks go to backlog."
+      ],
+      "alternate_approaches": [
+        "Fixed-price with scope annexes.",
+        "Time/materials with caps.",
+        "MVP + iterations model."
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "role_level": "executive",
+    "domain": "workforce_planning",
+    "question": "Hiring lags demand while attrition accelerates. How do I balance talent supply?",
+    "answer": {
+      "problem_explanation": "Misaligned pipelines create capacity crises, overtime traps, and burnout without demand forecasting.",
+      "steps_to_solve": [
+        "Forecast demand signals. Pipeline, seasonality, expansion plans.",
+        "Attrition deep-dive. Exit data by role, manager, tenure.",
+        "Pipeline acceleration. Multiple channels, referral multipliers.",
+        "Upskill internals first. Map 30% roles to redeployments.",
+        "Contractor bridges. Flex capacity for peaks/valleys.",
+        "Retention blitz. High-risk interventions from data.",
+        "Hiring velocity KPIs. Time-to-fill by role tracked.",
+        "Contingency playbook. Recession, boom scenarios ready."
+      ],
+      "alternate_approaches": [
+        "Talent pools pre-screened for ramp.",
+        "Gig platforms for specialists.",
+        "Offshore nearshore hybrids."
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "role_level": "frontline_manager",
+    "domain": "task_prioritization",
+    "question": "Team members juggle too many tasks and nothing gets finished. How do I help them focus?",
+    "answer": {
+      "problem_explanation": "Multitasking overload leads to context switching losses, stalled progress, and burnout as low-priority items crowd out high-impact work.",
+      "steps_to_solve": [
+        "Teach Eisenhower matrix. Categorize tasks by urgency/importance daily.",
+        "Set daily top-3. Limit to 3 must-do items with time estimates.",
+        "Visualize workloads. Shared board showing all active tasks per person.",
+        "Weekly priority sync. Align team efforts to current business needs.",
+        "Block focus time. Calendar protections for deep work blocks.",
+        "Daily standup refinement. Flag stuck items and reprioritize live.",
+        "Closeout rituals. End-day review of completed vs. parked.",
+        "Coach delegation. Train on handing off low-value tasks."
+      ],
+      "alternate_approaches": [
+        "Kanban with strict WIP limits per person.",
+        "Time-blocking apps enforcing daily plans.",
+        "Quarterly 'focus sprints' dropping non-essentials."
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "role_level": "middle_manager",
+    "domain": "escalation_management",
+    "question": "Everything escalates to me instead of team resolution. How do I build self-sufficiency?",
+    "answer": {
+      "problem_explanation": "Over-escalation creates bottlenecks and dependency, stunting team autonomy and your strategic capacity.",
+      "steps_to_solve": [
+        "Define escalation criteria. Clear thresholds for when to escalate vs. solve.",
+        "Train decision frameworks. Teach RADAR (Risk, Authority, Data, Alignment).",
+        "Shadow then coach. Join initial escalations, then observe solo attempts.",
+        "Post-resolution debriefs. Review what they tried and alternatives.",
+        "Success thresholds. Require 80% team resolution before vacations.",
+        "Visibility dashboards. Track escalation rates publicly.",
+        "Celebrate independence. Recognize first-time self-resolves.",
+        "Gradual handback. Start with low-risk, build to complex."
+      ],
+      "alternate_approaches": [
+        "Escalation bounties rewarding team solutions.",
+        "Tiered support model with peer tiers first.",
+        "AI triage bots deflecting routine asks."
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "role_level": "senior_manager",
+    "domain": "innovation_funding",
+    "question": "Innovative projects struggle for budget amid core business pressure. How do I fund experiments?",
+    "answer": {
+      "problem_explanation": "Short-termism starves future growth as safe bets crowd out high-upside risks without protected allocation.",
+      "steps_to_solve": [
+        "Ringfence innovation budget. 10% of total spend non-negotiable.",
+        "Lightweight pitch process. 1-page proposals with success metrics.",
+        "Portfolio balance. Fund mix of incremental, adjacent, transformative.",
+        "Time-bound funding. 3-month experiments with kill/go-forward gates.",
+        "Cross-pollinate ideas. Mandatory input from other functions.",
+        "Track learning ROI. Value insights gained, not just revenue.",
+        "Demo days quarterly. Pitch results to secure next funding.",
+        "Kill good projects publicly. Demonstrate discipline."
+      ],
+      "alternate_approaches": [
+        "Internal venture fund with board approval.",
+        "Crowdfund from other departments' budgets.",
+        "20% time policy for personal experiments."
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "role_level": "executive",
+    "domain": "board_communication",
+    "question": "Board meetings feel like interrogations rather than strategic discussions. How do I elevate them?",
+    "answer": {
+      "problem_explanation": "Operational firefighting crowds strategy, eroding trust and forward focus without disciplined preparation.",
+      "steps_to_solve": [
+        "Pre-read packets. 5-day advance with data, dilemmas, recommendations.",
+        "Agenda co-owned. Solicit topics from board pre-meeting.",
+        "Timebox deep dives. 20-min max per topic with pre-work.",
+        "Board education. Quarterly sessions on key metrics/models.",
+        "Forward-looking focus. 70% future, 30% past performance.",
+        "Dilemma framing. Present options with trade-offs vs. reports.",
+        "Post-meeting synthesis. Immediate action owners and follow-ups.",
+        "Board feedback loop. Annual survey on meeting effectiveness."
+      ],
+      "alternate_approaches": [
+        "Strategy days offsite focused purely forward.",
+        "Board committees for operational reviews.",
+        "Digital board portal for async decisions."
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "role_level": "middle_manager",
+    "domain": "supplier_negotiation",
+    "question": "Suppliers raise prices annually without pushback. How do I negotiate better terms?",
+    "answer": {
+      "problem_explanation": "Passive acceptance erodes margins as unchecked increases compound without competitive tension.",
+      "steps_to_solve": [
+        "Benchmark pricing. Gather competitor quotes and market data.",
+        "Bundle volume. Aggregate spend across categories for leverage.",
+        "Multi-year deals. Trade price stability for commitment.",
+        "Performance clauses. Discounts tied to SLAs/quality.",
+        "RFQ process annually. Solicit bids even from incumbents.",
+        "Total cost focus. Include shipping, support in evaluations.",
+        "Walk-away power. Develop dual suppliers strategically.",
+        "Document everything. Create paper trail for future leverage."
+      ],
+      "alternate_approaches": [
+        "Group purchasing with industry peers.",
+        "Revenue-share models aligning incentives.",
+        "Long-term partnerships with equity stakes."
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "role_level": "frontline_manager",
+    "domain": "peer_conflict",
+    "question": "Two strong performers clash frequently, poisoning team dynamics. How do I mediate?",
+    "answer": {
+      "problem_explanation": "Untreated peer friction spreads negativity and blocks collaboration, outweighing individual talents.",
+      "steps_to_solve": [
+        "Separate fact-finding. Meet each privately for their story.",
+        "Reframe as shared problem. 'How do we work better together?'",
+        "Joint mediated session. Structured dialogue with ground rules.",
+        "Behavioral agreements. Specific actions for meetings/emails.",
+        "Common goals exercise. Map overlapping objectives.",
+        "Follow-up cadence. Bi-weekly check-ins on progress.",
+        "Escalate if toxic. Performance plans if uncoachable.",
+        "Team-wide norms refresh. Broader communication standards."
+      ],
+      "alternate_approaches": [
+        "Neutral third-party facilitator.",
+        "Temporary project separation.",
+        "360 feedback highlighting impacts."
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "role_level": "senior_manager",
+    "domain": "data_quality",
+    "question": "Bad data causes wrong decisions and rework. How do I clean it up systematically?",
+    "answer": {
+      "problem_explanation": "Garbage inputs poison analytics and automation, compounding errors without ownership.",
+      "steps_to_solve": [
+        "Data lineage mapping. Trace sources to usage points.",
+        "Quality scorecards. Automated tests for completeness/accuracy.",
+        "Owner assignments. Data stewards per critical dataset.",
+        "Ingestion gates. Block dirty data at entry points.",
+        "Self-healing rules. Automated fixes for common errors.",
+        "Usage feedback loops. Downstream consumers flag issues.",
+        "Quarterly audits. Sample reviews with remediation.",
+        "Cultural shift. Data quality as performance metric."
+      ],
+      "alternate_approaches": [
+        "Data mesh with domain ownership.",
+        "ML anomaly detection.",
+        "External data cleansing services."
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "role_level": "middle_manager",
+    "domain": "launch_readiness",
+    "question": "Features ship but fail in production due to overlooked ops needs. How do I ensure smooth launches?",
+    "answer": {
+      "problem_explanation": "Dev-only focus creates post-launch fire drills as scalability, monitoring gaps emerge.",
+      "steps_to_solve": [
+        "Production readiness checklist. Ops review mandatory pre-ship.",
+        "Cross-team launch squad. Dev, QA, ops, security from day one.",
+        "Canary rollouts. Gradual traffic shifts with kill switches.",
+        "Synthetic monitoring. Automated prod probes from launch.",
+        "Runbook co-creation. Dev writes first draft for handover.",
+        "Post-launch war room. 48-hour on-call rotation.",
+        "Success criteria upfront. Define launch = stable + monitored.",
+        "Lessons captured. Retrospective within 1 week."
+      ],
+      "alternate_approaches": [
+        "Blue-green deployments.",
+        "Feature flags for rollback.",
+        "Chaos engineering pre-prod."
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "role_level": "frontline_manager",
+    "domain": "skill_sharing",
+    "question": "Experts hoard knowledge, creating bottlenecks. How do I encourage spreading expertise?",
+    "answer": {
+      "problem_explanation": "Knowledge monopolies risk delivery when experts are busy/unavailable, limiting team velocity.",
+      "steps_to_solve": [
+        "Skill matrix mapping. Visualize gaps and experts publicly.",
+        "Mandatory mentoring hours. 4 hours/week teaching others.",
+        "Pairing rotations. Experts shadow juniors on live tasks.",
+        "Brown bag series. Weekly expert demos with Q&A.",
+        "Incentivize broadly. Team bonuses tied to collective skill lift.",
+        "Documentation bounties. Rewards for high-use runbooks.",
+        "Cross-training challenges. Certify backups for vacations.",
+        "Celebrate teachers. 'Mentor of month' recognition."
+      ],
+      "alternate_approaches": [
+        "Guilds/communities of practice.",
+        "Reverse mentoring juniors to seniors.",
+        "AI transcription of expert sessions."
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "role_level": "executive",
+    "domain": "acquisition_integration",
+    "question": "Acquisitions add capability but cultures clash and value leaks. How do I capture synergies fast?",
+    "answer": {
+      "problem_explanation": "Integration delays erode deal rationale through attrition, redundancy, and lost momentum.",
+      "steps_to_solve": [
+        "100-day playbook. Pre-defined milestones and owners.",
+        "Integration PMO. Dedicated team tracking progress.",
+        "Cultural assessment day 1. Joint values workshop.",
+        "Quick revenue wins. Cross-sell pilots within 30 days.",
+        "IT harmonization. Single sign-on week 1.",
+        "Talent mapping. Identify keepers and exits early.",
+        "Customer continuity. Joint comms reassuring stability.",
+        "Synergy tracking. Monthly value capture dashboard."
+      ],
+      "alternate_approaches": [
+        "Clean-slate integration ignoring legacy.",
+        "Autonomous units preserving culture.",
+        "Earn-outs tying to milestones."
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "role_level": "frontline_manager",
+    "domain": "performance_reviews",
+    "question": "Performance reviews feel subjective and demotivating. How do I make them fair and impactful?",
+    "answer": {
+      "problem_explanation": "Biased or infrequent feedback creates surprises, resentment, and unclear growth paths, undermining trust in the process.",
+      "steps_to_solve": [
+        "Shift to continuous feedback. Weekly 1:1s with specific examples over annual summaries.",
+        "Use multi-source input. Collect 360-degree data from peers, direct reports, and stakeholders.",
+        "Standardize criteria. Define role-based competencies with behavioral anchors.",
+        "Calibrate across managers. Group sessions to align ratings and reduce bias.",
+        "Focus on future development. 70% growth plan, 30% past performance.",
+        "Document live. Shared tools for real-time examples and progress.",
+        "Train on delivery. Practice tough conversations with role-play.",
+        "Follow up quarterly. Track commitments and adjust plans."
+      ],
+      "alternate_approaches": [
+        "Ongoing calibration pods rotating reviewers.",
+        "AI-assisted bias detection in feedback text.",
+        "Team-based reviews emphasizing collaboration."
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "role_level": "middle_manager",
+    "domain": "resource_allocation",
+    "question": "Multiple high-priority projects compete for the same team capacity. How do I allocate fairly?",
+    "answer": {
+      "problem_explanation": "Resource contention breeds overload, delays, and favoritism perceptions without transparent triage.",
+      "steps_to_solve": [
+        "Demand forecast. Quantify hours needed per project by role/skill.",
+        "Capacity baseline. Calculate available hours excluding overhead.",
+        "Weighted scoring. Rank projects by strategic value, urgency, dependencies.",
+        "Portfolio view. Visualize allocation across all initiatives.",
+        "Stakeholder trade-off workshop. Jointly agree on deprioritizations.",
+        "Rolling allocation. Rebalance bi-weekly based on progress.",
+        "Transparency dashboard. Publish decisions and rationale.",
+        "Escalation for conflicts. Clear path to executives."
+      ],
+      "alternate_approaches": [
+        "Dedicated allocation committee.",
+        "Auction model with project sponsors bidding capacity.",
+        "Cross-team resource pools."
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "role_level": "senior_manager",
+    "domain": "crisis_communication",
+    "question": "A major outage is public, and social media is exploding. How do I manage the narrative?",
+    "answer": {
+      "problem_explanation": "Poor crisis comms amplifies damage through speculation and erodes credibility without rapid, empathetic transparency.",
+      "steps_to_solve": [
+        "Activate comms war room. PR, legal, tech, execs aligned.",
+        "Acknowledge immediately. 'We know, working on it' within 30 mins.",
+        "Status cadence. Hourly updates via single channel.",
+        "Empathize first. Apologize for impact, not fault.",
+        "Root cause commitment. Timeline for full post-mortem.",
+        "Channel control. Designate spokespeople, monitor social.",
+        "Customer outreach. Personalized for high-value accounts.",
+        "Lessons integrated. Process changes before 'all clear'."
+      ],
+      "alternate_approaches": [
+        "Live CEO video updates.",
+        "Customer status portal.",
+        "Third-party credibility verification."
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "role_level": "executive",
+    "domain": "pricing_strategy",
+    "question": "Competitors undercut us, but raising prices risks volume loss. How do I optimize revenue?",
+    "answer": {
+      "problem_explanation": "Price wars erode margins without differentiation, trapping in race-to-bottom without value communication.",
+      "steps_to_solve": [
+        "Value segmentation. Map customer willingness-to-pay by persona.",
+        "Competitive benchmarking. Total cost vs. list price analysis.",
+        "Tiered pricing. Good/better/best bundles emphasizing premium.",
+        "Dynamic pilots. Test increases in low-risk segments.",
+        "Value selling training. Equip reps with ROI calculators.",
+        "Contract optimization. Multi-year discounts for commitment.",
+        "Churn analysis. Exit interviews revealing price sensitivity.",
+        "Win/loss tracking. Correlate pricing to deal outcomes."
+      ],
+      "alternate_approaches": [
+        "Subscription value metrics over seat pricing.",
+        "Outcome-based pricing tied to results.",
+        "Freemium leading to premium upsell."
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "role_level": "middle_manager",
+    "domain": "vendor_consolidation",
+    "question": "Too many vendors create complexity and negotiation weakness. How do I rationalize?",
+    "answer": {
+      "problem_explanation": "Vendor sprawl inflates costs, compliance risks, and management overhead without strategic leverage.",
+      "steps_to_solve": [
+        "Vendor inventory audit. Spend, contracts, performance by category.",
+        "Consolidation scorecard. Strategic fit, pricing, service quality.",
+        "Category strategies. Define preferred providers per spend type.",
+        "RFI consolidation. Invite top vendors to bid broader scope.",
+        "Exit planning. Phased offboarding with transition support.",
+        "Master agreements. Standardized terms across winners.",
+        "Performance tiers. Rewards for multi-category wins.",
+        "Annual reviews. Reassess based on market changes."
+      ],
+      "alternate_approaches": [
+        "Strategic alliances with equity components.",
+        "Co-opetition with competitors on non-core.",
+        "Internal capability build vs. buy analysis."
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "role_level": "frontline_manager",
+    "domain": "on_call_fatigue",
+    "question": "On-call rotations burn out engineers. How do I make it sustainable?",
+    "answer": {
+      "problem_explanation": "Frequent alerts and toil erode morale and retention without automation and fairness.",
+      "steps_to_solve": [
+        "Alert fatigue audit. Reduce noise to true P1 incidents.",
+        "SLO/SLI definition. Clear service expectations driving paging.",
+        "Automation first. Auto-remediation for 80% alerts.",
+        "Rotation fairness. Equal burden with comp time.",
+        "Post-incident reviews. Blameless learning, toil reduction.",
+        "Escalation tiers. Self-serve L1 before paging.",
+        "Wellness monitoring. Track burnout signals.",
+        "Off-call recharge. No meetings post-shift."
+      ],
+      "alternate_approaches": [
+        "Follow-the-sun global rotations.",
+        "AI incident triage.",
+        "Bounty system for toil reduction."
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "role_level": "senior_manager",
+    "domain": "sales_enablement",
+    "question": "Sales cycles lengthen despite strong pipeline. How do I accelerate closes?",
+    "answer": {
+      "problem_explanation": "Stalls signal qualification gaps, competitive blindspots, or weak value articulation.",
+      "steps_to_solve": [
+        "Pipeline inspection. Stage-by-stage conversion analysis.",
+        "Deal coaching. Weekly reviews of top stalled opportunities.",
+        "Objection library. Proven responses by competitor/deal stage.",
+        "ROI tools. Customer-specific calculators proving value.",
+        "Executive sponsors. Assigned for top deals.",
+        "Competitive battlecards. Real-time intel sharing.",
+        "Motion metrics. Activity thresholds per stage.",
+        "Win/loss rigor. Structured interviews every deal."
+      ],
+      "alternate_approaches": [
+        "MEDDIC qualification enforcement.",
+        "Challenger selling training.",
+        "Pilot pricing incentives."
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "role_level": "middle_manager",
+    "domain": "security_incidents",
+    "question": "Security incidents recur in same areas. How do I break the pattern?",
+    "answer": {
+      "problem_explanation": "Repeated breaches indicate training gaps, process holes, or culture issues beyond tech fixes.",
+      "steps_to_solve": [
+        "Incident trend mapping. Root cause categories and frequency.",
+        "Risk heatmap. Prioritize fixes by likelihood/impact.",
+        "Behavioral nudges. Just-in-time training at risky moments.",
+        "Automation guards. Block common errors proactively.",
+        "Gamified awareness. Phishing sims with leaderboards.",
+        "Ownership matrix. Teams accountable for their risks.",
+        "Quarterly drills. Simulated attacks end-to-end.",
+        "Metrics dashboard. Leading indicators of culture shift."
+      ],
+      "alternate_approaches": [
+        "Zero-trust redesign.",
+        "Bug bounty internal first.",
+        "Security champions embedded."
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "role_level": "frontline_manager",
+    "domain": "code_review_backlog",
+    "question": "Code review queues block deployments and frustrate devs. How do I streamline?",
+    "answer": {
+      "problem_explanation": "Bottlenecked reviews slow velocity and quality as waits compound.",
+      "steps_to_solve": [
+        "SLA commitment. 24-hour turnaround targets.",
+        "Reviewer rotation. Balanced load across team.",
+        "PR hygiene standards. Templates enforcing self-review.",
+        "Pair programming alternative. Live review for complex.",
+        "Automated checks first. Linting, tests before human.",
+        "Reviewer training. Focus on high-leverage feedback.",
+        "Escalation path. Auto-notify after SLA breach.",
+        "Metrics tracking. Cycle time by reviewer/skill."
+      ],
+      "alternate_approaches": [
+        "Trunk-based dev minimizing PRs.",
+        "AI code review augmentation.",
+        "Review pods by expertise area."
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "role_level": "executive",
+    "domain": "innovation_governance",
+    "question": "Too many experiments lack focus and measurement. How do I structure innovation?",
+    "answer": {
+      "problem_explanation": "Uncoordinated ideation wastes resources without disciplined validation.",
+      "steps_to_solve": [
+        "Innovation portfolio view. Stage-gated pipeline visibility.",
+        "Hypothesis-driven. Clear testable assumptions upfront.",
+        "Resource allocation tiers. Budget by experiment maturity.",
+        "Cross-functional juries. Go/no-go at key gates.",
+        "Standard metrics. Acquisition, activation, retention minimums.",
+        "Kill discipline. 70% experiments terminated.",
+        "Learn centralization. Shared experiment database.",
+        "Annual review. Portfolio rebalance by theme."
+      ],
+      "alternate_approaches": [
+        "Corporate venture arm.",
+        "External accelerator partnerships.",
+        "Moonshot factory model."
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "role_level": "frontline_manager",
+    "domain": "daily_standups",
+    "question": "Standups have become status monologues without actionable outcomes. How do I make them effective?",
+    "answer": {
+      "problem_explanation": "Ritualized reporting wastes time and misses blockers as discussions lack focus, ownership, and forward momentum.",
+      "steps_to_solve": [
+        "Enforce strict format. Yesterday's wins/blockers, today's plan, help needed—in 1 minute max per person.",
+        "Visual board first. Update tickets live before speaking to ground discussion.",
+        "Rotate facilitator. Different person keeps time and drives action items.",
+        "Blocker parking lot. Immediate owner/deadline for every impediment.",
+        "No solutions in standup. Async Slack for deep dives post-meeting.",
+        "Attendance flex. Async video updates for unavoidable conflicts.",
+        "Weekly review. Measure if standups accelerate velocity.",
+        "Celebrate resolutions. Highlight yesterday's cleared blockers."
+      ],
+      "alternate_approaches": [
+        "Async standups via shared video loom playlist.",
+        "Squad model splitting large teams.",
+        "15-minute hard stop with overrun penalties."
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "role_level": "middle_manager",
+    "domain": "quarterly_planning",
+    "question": "Q4 planning sessions generate endless ideas but no commitments. How do I drive decisions?",
+    "answer": {
+      "problem_explanation": "Idea overload without ruthless prioritization dilutes execution as everything becomes 'important'.",
+      "steps_to_solve": [
+        "Pre-work mandatory. Submit 3 priorities with impact data 48 hours prior.",
+        "Timeboxed voting. Dot-voting or 100-point distribution on top ideas.",
+        "Capacity-constrained. Only approve what fits available hours.",
+        "Decision matrix visible. Score by effort/impact live on whiteboard.",
+        "Trade-offs explicit. Each yes requires a corresponding no.",
+        "Owner assignment. Every initiative gets DRI (Directly Responsible Individual).",
+        "90-day cliff. Commitments locked, changes require escalation.",
+        "Post-planning audit. Track % delivered vs. promised."
+      ],
+      "alternate_approaches": [
+        "Weighted shortest job first sequencing.",
+        "Strategy cascade from executive themes.",
+        "Rolling wave: plan first 30 days detail, rest high-level."
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "role_level": "senior_manager",
+    "domain": "executive_presence",
+    "question": "Junior leaders lack gravitas in cross-level meetings. How do I develop their presence?",
+    "answer": {
+      "problem_explanation": "Weak executive communication undermines credibility and influence, limiting career progression.",
+      "steps_to_solve": [
+        "Video self-review. Record practice presentations, critique delivery.",
+        "Storytelling framework. Teach problem-solution-impact structure.",
+        "Stakeholder prep. Rehearse Q&A with tough questions.",
+        "Conciseness drills. Cut decks 50%, practice 2-minute summaries.",
+        "Body language coaching. Power poses, eye contact, pauses.",
+        "Peer feedback pods. Rotate presentation critiques.",
+        "High-stakes shadowing. Observe execs, then debrief style.",
+        "Progress showcases. Monthly demo improvement."
+      ],
+      "alternate_approaches": [
+        "Toastmasters or improv classes.",
+        "Executive speech coach.",
+        "Mentor mock board meetings."
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "role_level": "executive",
+    "domain": "talent_acquisition",
+    "question": "We're losing top candidates to competitors with faster offers. How do I win the war for talent?",
+    "answer": {
+      "problem_explanation": "Process bottlenecks and generic pitches lose A-players who have multiple options and short patience.",
+      "steps_to_solve": [
+        "Candidate experience audit. Map from sourcing to onboarding pain points.",
+        "Executive engagement early. CEO calls for top 10 roles.",
+        "Compelling narratives. Tailored 'why us' stories vs. generic decks.",
+        "Parallel hiring. Multiple roles interviewing simultaneously.",
+        "Decision sprints. 48-hour post-final interview offers.",
+        "Referral multipliers. 2x bonuses for senior referrals.",
+        "Market intelligence. Track competitor offers and match strategically.",
+        "Boomerang program. Re-recruit past high-performers."
+      ],
+      "alternate_approaches": [
+        "Direct sourcing via personal networks.",
+        "Equity-heavy packages for key hires.",
+        "Team interviews emphasizing culture fit."
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "role_level": "middle_manager",
+    "domain": "cross_time_zone",
+    "question": "Global team meetings exclude night owls and early birds. How do I make async work?",
+    "answer": {
+      "problem_explanation": "Sync bias fragments participation and burns out offset teams without deliberate async design.",
+      "steps_to_solve": [
+        "Async-first default. Loom videos, threaded discussions replace meetings.",
+        "Meeting equity rotation. Rotate painful hours across regions.",
+        "Response SLAs not real-time. 24-hour business day expectation.",
+        "Shared async rituals. Daily written updates in one doc.",
+        "Time zone dashboards. Visible calendars blocking conflicts.",
+        "Recording mandate. Every sync captured for replay.",
+        "Core overlap hours only. 2 hours max daily universal time.",
+        "Quarterly sync summits. Face-time for relationship building."
+      ],
+      "alternate_approaches": [
+        "Regional pods with cross-pod alignment.",
+        "AI meeting summaries with action extraction.",
+        "Shifted workdays aligning to project phases."
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "role_level": "frontline_manager",
+    "domain": "estimation_accuracy",
+    "question": "Team consistently underestimates tasks, causing sprint failures. How do I improve planning?",
+    "answer": {
+      "problem_explanation": "Optimism bias and poor reference class forecasting erode trust and velocity predictability.",
+      "steps_to_solve": [
+        "Historical velocity database. Tag stories by type/complexity.",
+        "Planning poker with ranges. Not points—low/high estimates.",
+        "Spike stories first. Timebox investigation before commitment.",
+        "External calibration. Bring fresh eyes for sanity checks.",
+        "Buffer explicitly. Add 25% padding for unknowns.",
+        "Post-mortem accuracy. Track planned vs. actual by estimator.",
+        "Story slicing. Break until confident estimation possible.",
+        "Capacity-first planning. Start with available hours."
+      ],
+      "alternate_approaches": [
+        "T-shirt sizing over numeric points.",
+        "Monte Carlo simulation for probabilistic forecasts.",
+        "External benchmark data by industry."
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "role_level": "senior_manager",
+    "domain": "portfolio_management",
+    "question": "Too many mediocre projects dilute strategic impact. How do I curate ruthlessly?",
+    "answer": {
+      "problem_explanation": "Initiative sprawl spreads resources thin without portfolio-level discipline and sunset authority.",
+      "steps_to_solve": [
+        "Portfolio scorecard. Monthly scoring across all active initiatives.",
+        "Capacity ceiling. Hard limit on concurrent projects per team.",
+        "Kill criteria upfront. Define sunset triggers for each.",
+        "Reallocation sprints. Freed capacity auto-rolls to winners.",
+        "Cross-pollination. Merge overlapping efforts.",
+        "Customer validation gates. Kill without product-market fit.",
+        "Executive portfolio review. Quarterly rebalance authority.",
+        "Celebrate strategic kills. Recognize sunset discipline."
+      ],
+      "alternate_approaches": [
+        "Real options valuation for uncertainty.",
+        "Venture capital style board pitches.",
+        "Weighted scoring automation."
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "role_level": "middle_manager",
+    "domain": "incident_response",
+    "question": "Outages cascade because response lacks structure. How do I professionalize?",
+    "answer": {
+      "problem_explanation": "Ad-hoc firefighting amplifies damage through confusion and heroic overtime.",
+      "steps_to_solve": [
+        "Incident commander role. Single throat-to-choke coordination.",
+        "Playbooks by service. Pre-written rollback/remediation steps.",
+        "Communication templates. Status updates every 15 mins.",
+        "Post-incident review mandatory. 24-hour blameless analysis.",
+        "Toil metric tracking. Convert heroics to automation.",
+        "On-call handbook. Escalation paths and SLAs defined.",
+        "Drills quarterly. Simulated incidents end-to-end.",
+        "MTTR dashboards. Measure and publish improvement."
+      ],
+      "alternate_approaches": [
+        "PagerDuty orchestration.",
+        "Chaos engineering hardening.",
+        "SRE team embedding."
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "role_level": "frontline_manager",
+    "domain": "motivational_interviews",
+    "question": "Quiet quitters coast without disengaging fully. How do I re-ignite or redirect?",
+    "answer": {
+      "problem_explanation": "Coasting drains team energy and standards erode without direct intervention.",
+      "steps_to_solve": [
+        "Private curiosity conversation. 'What's changed for you?' without judgment.",
+        "Reality alignment. Clarify current expectations vs. coasting.",
+        "Motivation mapping. Uncover renewed drivers or blockers.",
+        "Stretch assignment offer. New challenges matching interests.",
+        "Role transition discussion. Internal moves if poor fit.",
+        "Performance contract. Clear targets with support timeline.",
+        "Success tracking. Weekly progress check-ins.",
+        "Promotion path refresh. Concrete steps to next level."
+      ],
+      "alternate_approaches": [
+        "Job crafting workshop redefining role.",
+        "Peer accountability partnerships.",
+        "Sabbatical or reduced hours trial."
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "role_level": "executive",
+    "domain": "strategic_partnerships",
+    "question": "Partnership discussions stall in MOU purgatory. How do I convert talk to revenue?",
+    "answer": {
+      "problem_explanation": "Vague commitments waste exec time without joint accountability and quick wins.",
+      "steps_to_solve": [
+        "Pilot-first mindset. 90-day MVP before full agreement.",
+        "Joint KPIs from day one. Shared revenue/success metrics.",
+        "Cross-company teams. Dedicated pods owning execution.",
+        "Weekly exec syncs. Blockers escalated immediately.",
+        "Escrow revenue commitment. Skin in game both sides.",
+        "Kill clause at 90 days. No progress = no partnership.",
+        "Win mutual customers first. Prove value together.",
+        "Scale playbook ready. Blueprint for broader rollout."
+      ],
+      "alternate_approaches": [
+        "Revenue share over fixed fees.",
+        "Co-branded product launches.",
+        "Equity swaps for alignment."
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "role_level": "frontline_manager",
+    "domain": "client_relationships",
+    "question": "Key clients complain about slow responses despite SLAs. How do I improve service perception?",
+    "answer": {
+      "problem_explanation": "Perceived slowness stems from mismatched expectations or invisible triage, eroding trust even when metrics hit targets.",
+      "steps_to_solve": [
+        "Map client journeys. Identify pain points from request to resolution.",
+        "Set proactive comms. Acknowledge every ticket within 1 hour with ETA.",
+        "Triage transparency. Status updates every 24 hours max.",
+        "Client portal access. Self-serve dashboards for high-touch accounts.",
+        "Dedicated client leads. Single point of contact per major account.",
+        "Feedback loops. Post-resolution NPS with follow-up calls.",
+        "Escalation visibility. VIP paths for C-level clients.",
+        "Service playbook. Standardized responses for common issues."
+      ],
+      "alternate_approaches": [
+        "Client success managers embedded.",
+        "AI chatbots for instant triage.",
+        "Priority queues by revenue tier."
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "role_level": "middle_manager",
+    "domain": "team_retrospectives",
+    "question": "Retrospectives generate complaints but no action. How do I convert talk to improvement?",
+    "answer": {
+      "problem_explanation": "Venting without ownership or follow-through wastes time and breeds cynicism about process.",
+      "steps_to_solve": [
+        "Action-focused format. Limit problems to 3, require owner/deadline.",
+        "Impact voting. Prioritize by team-estimated velocity gain.",
+        "Experiment mindset. Test changes for 2 sprints minimum.",
+        "Visual tracking board. Public progress on all commitments.",
+        "Retrospective of retros. Quarterly format effectiveness review.",
+        "Cross-team sharing. Best experiments presented org-wide.",
+        "Timeboxing strict. 60 minutes max with parking lot.",
+        "Celebrate closed loops. Wins from previous retro first."
+      ],
+      "alternate_approaches": [
+        "Silent writing then grouping.",
+        "External facilitator rotation.",
+        "Sailboat/timeline visual metaphors."
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "role_level": "senior_manager",
+    "domain": "executive_influence",
+    "question": "My recommendations get overruled without discussion. How do I build buy-in?",
+    "answer": {
+      "problem_explanation": "Top-down overrides signal weak pre-selling or missing executive context alignment.",
+      "steps_to_solve": [
+        "Pre-wire key stakeholders. Informal 1:1s before formal meetings.",
+        "Data-first framing. Quantify impact/risk of inaction.",
+        "Address objections upfront. FAQ slide anticipating pushback.",
+        "Coalition building. Secure peer endorsements pre-vote.",
+        "Pilot proof. Small wins demonstrating approach.",
+        "Trade-off clarity. Show what's deprioritized instead.",
+        "Follow-up rigor. Post-meeting action tracking.",
+        "Influence training. Storytelling and framing workshops."
+      ],
+      "alternate_approaches": [
+        "Sponsor advocacy from above.",
+        "Data visualization over slides.",
+        "Reverse demo starting with results."
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "role_level": "executive",
+    "domain": "economic_downturn",
+    "question": "Recession signals require cost cuts without morale collapse. How do I navigate?",
+    "answer": {
+      "problem_explanation": "Panic cuts damage culture and velocity; surgical precision preserves optionality.",
+      "steps_to_solve": [
+        "Scenario planning. Base/worst/best cases with triggers.",
+        "Zero-based priorities. Justify all spend from scratch.",
+        "Protect core bets. Ringfence strategic initiatives.",
+        "Voluntary measures first. Furloughs, pay deferrals.",
+        "Transparent criteria. RIF selection framework shared.",
+        "Retention focus. Top talent communication plan.",
+        "Cash runway dashboard. Weekly executive review.",
+        "Recovery playbook ready. Ramp triggers defined."
+      ],
+      "alternate_approaches": [
+        "Shared sacrifice model.",
+        "Strategic divestitures.",
+        "Customer prepayment campaigns."
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "role_level": "middle_manager",
+    "domain": "technical_spikes",
+    "question": "Unknowns kill estimation accuracy. How do I reduce planning uncertainty?",
+    "answer": {
+      "problem_explanation": "Jumping into unknowns leads to massive overruns as hidden complexity emerges late.",
+      "steps_to_solve": [
+        "Spike stories mandatory. Timeboxed investigation before commitment.",
+        "Risk-adjusted estimates. Multiply by uncertainty factor.",
+        "Vendor POCs first. Proof before full contracts.",
+        "Architecture runway. Pre-build technical foundations.",
+        "Expert consultations. Bring specialists for 2-hour sanity checks.",
+        "Prototyping budget. 10% allocation for experiments.",
+        "Dependency mapping. External risks identified early.",
+        "Rolling estimates. Refine as knowledge grows."
+      ],
+      "alternate_approaches": [
+        "Strangler pattern incremental replacement.",
+        "COTS evaluation matrix.",
+        "Hackathon weekends for spikes."
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "role_level": "frontline_manager",
+    "domain": "interviewing",
+    "question": "We hire fast but new hires underperform. How do I improve hiring signals?",
+    "answer": {
+      "problem_explanation": "Weak predictors select for interviews over actual performance, creating ramp-up pain.",
+      "steps_to_solve": [
+        "Structured interviews. Scorecard with behavioral questions.",
+        "Work simulations. Paid trial projects matching real tasks.",
+        "Reference depth. Talk to recent managers, not just listed.",
+        "Team fit validation. Panel with future peers.",
+        "90-day probation rigor. Explicit ramp-up milestones.",
+        "Hiring bar calibration. Cross-team interview consistency.",
+        "Diversity of signals. Tests + culture + skills balanced.",
+        "Post-hire review. 6-month hire/no-hire retrospective."
+      ],
+      "alternate_approaches": [
+        "Take-home assessments automated grading.",
+        "Internship trials.",
+        "Assessment centers group exercises."
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "role_level": "senior_manager",
+    "domain": "cross_org_change",
+    "question": "Process changes affecting multiple teams meet resistance. How do I drive adoption?",
+    "answer": {
+      "problem_explanation": "Mandated changes without co-design breed compliance theater and shadow processes.",
+      "steps_to_solve": [
+        "Change coalition. Influencers from each affected group.",
+        "Pilot with volunteers. Prove value before rollout.",
+        "Pain/gain mapping. Individual impact assessments.",
+        "Training investment. Hands-on workshops not videos.",
+        "Quick wins sequenced. Tangible benefits first.",
+        "Feedback incorporation. Visible evolution from input.",
+        "Champions network. Local advocates per team.",
+        "Adoption metrics. Usage dashboards not surveys."
+      ],
+      "alternate_approaches": [
+        "A/B testing change variants.",
+        "Incentive alignment to new process.",
+        "Competitive benchmarking stories."
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "role_level": "middle_manager",
+    "domain": "dependency_management",
+    "question": "External team delays cascade through my roadmap. How do I protect delivery?",
+    "answer": {
+      "problem_explanation": "Unmanaged dependencies create single points of failure and blame cycles.",
+      "steps_to_solve": [
+        "Dependency mapping. Critical path visualization.",
+        "Joint planning sessions. Shared milestones with other teams.",
+        "Contractual SLAs. Penalties for external delays.",
+        "Workaround buffers. Parallel paths for critical risks.",
+        "Escalation matrix. Auto-notify managers at delays.",
+        "Contingency capacity. 20% slack for decoupling.",
+        "Decoupling investments. Internal alternatives prioritized.",
+        "Weekly sync cadence. Blocker resolution first."
+      ],
+      "alternate_approaches": [
+        "End-to-end ownership realignment.",
+        "API contracts with mocking.",
+        "Vendor diversification."
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "role_level": "frontline_manager",
+    "domain": "documentation_standards",
+    "question": "Code works but lacks docs, causing support nightmares. How do I enforce without killing velocity?",
+    "answer": {
+      "problem_explanation": "Documentation debt compounds maintenance costs as tribal knowledge exits.",
+      "steps_to_solve": [
+        "Definition of done includes docs. PRs blocked without.",
+        "Templates enforced. README checklists automated.",
+        "Doc-as-code. Versioned with source control.",
+        "Pair doc review. Two-person approval standard.",
+        "Video supplements. 5-minute walkthroughs for complex.",
+        "Searchable central repo. Single source of truth.",
+        "Doc debt sprints. Quarterly cleanup allocation.",
+        "Usage analytics. Prioritize high-traffic gaps."
+      ],
+      "alternate_approaches": [
+        "AI doc generation from code.",
+        "Living demos over static text.",
+        "Mandatory doc PRs with features."
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "role_level": "executive",
+    "domain": "competitive_positioning",
+    "question": "New entrants erode our market share. How do I respond without price wars?",
+    "answer": {
+      "problem_explanation": "Reactive matching destroys margins; proactive differentiation builds moats.",
+      "steps_to_solve": [
+        "Competitor teardown. Feature/price/experience matrix.",
+        "Customer exodus analysis. Win/loss interviews.",
+        "Loyalty levers. Switching cost investments.",
+        "Platform advantages. Ecosystem lock-in.",
+        "Speed to market. Faster iteration cycles.",
+        "Premium segmentation. Double down on high-end.",
+        "Partnership moats. Exclusive integrations.",
+        "Narrative ownership. Category leadership positioning."
+      ],
+      "alternate_approaches": [
+        "Acqui-hire talent.",
+        "Open source strategic components.",
+        "Co-opetition alliances."
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "role_level": "frontline_manager",
+    "domain": "1on1_effectiveness",
+    "question": "1:1 meetings feel like status updates, not development opportunities. How do I make them valuable?",
+    "answer": {
+      "problem_explanation": "Manager-led agendas turn 1:1s into reporting sessions, missing growth, feedback, and connection opportunities.",
+      "steps_to_solve": [
+        "Employee owns agenda. They drive topics 80% of time.",
+        "Prep prompts shared. 'Wins, blockers, career asks' template.",
+        "Rotate focus areas. Feedback one week, growth next.",
+        "Active listening first. 70/30 listen/talk ratio.",
+        "Action commitment. End with 1-2 owner/deadline items.",
+        "Follow-through tracking. Start next 1:1 with progress.",
+        "No-meeting buffer. 10 minutes post-1:1 for notes.",
+        "Quarterly themes. Deep dive on promotion readiness."
+      ],
+      "alternate_approaches": [
+        "Walking 1:1s for casual breakthroughs.",
+        "360 prep from peers before sessions.",
+        "Async 1:1 docs for distributed teams."
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "role_level": "middle_manager",
+    "domain": "promotion_readiness",
+    "question": "High performers aren't promotion-ready due to narrow skills. How do I accelerate growth?",
+    "answer": {
+      "problem_explanation": "Individual contributor excellence doesn't scale to leadership without deliberate breadth-building.",
+      "steps_to_solve": [
+        "Promotion matrix mapping. Skills vs. level requirements.",
+        "Stretch assignments. Lead cross-team projects immediately.",
+        "Mentor matching. Pair with role model at target level.",
+        "Visibility rotations. Present to executives quarterly.",
+        "Delegation practice. Hand off their strengths to juniors.",
+        "Feedback acceleration. Weekly coaching on leadership gaps.",
+        "Peer leadership. Run team training sessions.",
+        "Portfolio review. Document impact across 3+ dimensions."
+      ],
+      "alternate_approaches": [
+        "Acting manager rotations.",
+        "Leadership shadows with execs.",
+        "Promotion panels with defense."
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "role_level": "senior_manager",
+    "domain": "org_design",
+    "question": "Team structure creates handoff friction and slow decisions. How do I redesign?",
+    "answer": {
+      "problem_explanation": "Siloed org charts optimize locally but fail end-to-end flows and agility.",
+      "steps_to_solve": [
+        "Value stream mapping. End-to-end flow from customer request.",
+        "Pain point heatmap. Quantify handoffs/delays.",
+        "Team topology redesign. Pods owning full journeys.",
+        "Decision rights matrix. Clear ownership boundaries.",
+        "Cross-pollination roles. Rotating embeds between teams.",
+        "Platform teams. Shared services with SLAs.",
+        "Pilot new structure. One business unit first.",
+        "90-day health check. Flow metrics pre/post."
+      ],
+      "alternate_approaches": [
+        "Spotify guild/squad model.",
+        "Mission-aligned matrix org.",
+        "End-to-end tribe realignment."
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "role_level": "executive",
+    "domain": "investor_relations",
+    "question": "Investors push short-term tactics over strategy. How do I maintain long-term focus?",
+    "answer": {
+      "problem_explanation": "Quarterly pressure distorts resource allocation away from durable competitive advantages.",
+      "steps_to_solve": [
+        "Time horizon framework. Communicate 3H strategy clearly.",
+        "Milestone transparency. Leading indicators of long-term bets.",
+        "Board education. Deep dives on key moats quarterly.",
+        "Investor segmentation. Tiered update cadences by sophistication.",
+        "Pre-wire changes. Informal alignment before formal asks.",
+        "Scenario sharing. Show short-term pain for long-term gain.",
+        "Success stories. Early proof points from big bets.",
+        "Capital structure. Longer lockups reducing churn."
+      ],
+      "alternate_approaches": [
+        "Family office patient capital.",
+        "Dual-class voting rights.",
+        "Strategic investor board seats."
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "role_level": "middle_manager",
+    "domain": "psychological_safety",
+    "question": "Team avoids risks and raises issues late. How do I build safety?",
+    "answer": {
+      "problem_explanation": "Fear of blame stifles innovation and early problem-solving.",
+      "steps_to_solve": [
+        "Model vulnerability. Share your failures first.",
+        "Blameless post-mortems. Focus on systems, not people.",
+        "Anonymous channels. Safety pulse surveys monthly.",
+        "Micro-experiments rewarded. Celebrate bold failures.",
+        "Response training. 'Thank you for raising' reflex.",
+        "Team agreements. Co-create psychological safety charter.",
+        "Progress celebrations. Public recognition of risk-taking.",
+        "Safety metrics tracked. Survey scores as team KPI."
+      ],
+      "alternate_approaches": [
+        "Project Aristotle workshops.",
+        "Failure parties quarterly.",
+        "Safety scorecards in reviews."
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "role_level": "frontline_manager",
+    "domain": "code_quality",
+    "question": "Technical debt accumulates despite reviews. How do I maintain standards?",
+    "answer": {
+      "problem_explanation": "Pressure to deliver trumps quality without enforced discipline.",
+      "steps_to_solve": [
+        "Definition of done gates. Tests + docs + refactor mandatory.",
+        "Tech debt board. Visible prioritization with business.",
+        "Code health metrics. Coverage, complexity dashboards.",
+        "Pair programming rotation. Seniors with juniors weekly.",
+        "20% refactor budget. Protected capacity every sprint.",
+        "Automated enforcement. CI blocks on quality violations.",
+        "Spike allocation. Investigation before big refactors.",
+        "Celebrate cleanup. Debt reduction = team wins."
+      ],
+      "alternate_approaches": [
+        "Mob programming sessions.",
+        "Architecture decision records.",
+        "External code audits."
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "role_level": "senior_manager",
+    "domain": "sales_operations",
+    "question": "Sales productivity stalls despite headcount growth. How do I fix the machine?",
+    "answer": {
+      "problem_explanation": "Scaling reps without tooling/processes creates chaos and ramp friction.",
+      "steps_to_solve": [
+        "Ramp analysis. Time-to-productivity by cohort.",
+        "Playbook standardization. Winning motions documented.",
+        "Pipeline hygiene rules. Auto-archive stale opportunities.",
+        "Deal desk rigor. Contract review thresholds.",
+        "Forecasting cadence. Weekly accuracy reviews.",
+        "Enablement academy. New hire bootcamp mandatory.",
+        "Motion metrics dashboard. Activity-to-outcome ratios.",
+        "Churn prediction. Early intervention signals."
+      ],
+      "alternate_approaches": [
+        "Revenue operations center.",
+        "AI sales copilot.",
+        "Territory optimization algorithms."
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "role_level": "middle_manager",
+    "domain": "knowledge_transfer",
+    "question": "Key employee departure leaves knowledge gaps. How do I prevent single points of failure?",
+    "answer": {
+      "problem_explanation": "Tribal knowledge exits create delivery cliffs and hero dependencies.",
+      "steps_to_solve": [
+        "Knowledge audit. Map critical processes to owners.",
+        "Bus factor 2 minimum. Everyone vacations with backup.",
+        "Pairing mandate. Experts teach live during work.",
+        "Runbook creation. Step-by-step for all support tasks.",
+        "Video capture. Recorded walkthroughs searchable.",
+        "Cross-training matrix. Track certification progress.",
+        "Departure checklist. 30-day knowledge dump required.",
+        "Guild formation. Domain experts community of practice."
+      ],
+      "alternate_approaches": [
+        "Reverse interviews. New hires quiz experts.",
+        "Knowledge bounties for documentation.",
+        "AI conversation mining."
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "role_level": "frontline_manager",
+    "domain": "meeting_cadence",
+    "question": "Meeting fatigue kills focus time. How do I ruthlessly prune?",
+    "answer": {
+      "problem_explanation": "Calendar density fragments deep work and burns energy.",
+      "steps_to_solve": [
+        "Meeting audit. Track all recurring with value score.",
+        "Default to async. Written updates replace status meetings.",
+        "25/50 minute defaults. Strict timeboxing enforced.",
+        "Agenda required. No prep = no meeting.",
+        "Attendee optimization. Delegates + summaries for most.",
+        "No-meeting days. Team deep work blocks.",
+        "Calendar approval. Manager signoff for >1 hour weekly.",
+        "Quarterly reset. Sunset unused meetings."
+      ],
+      "alternate_approaches": [
+        "Meeting budgets per person/week.",
+        "Async video standups.",
+        "Representative attendance only."
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "role_level": "executive",
+    "domain": "culture_scaling",
+    "question": "Core values work at 100 people but feel inauthentic at 1000. How do I evolve culture?",
+    "answer": {
+      "problem_explanation": "Explicit values become checkboxes without living embodiment at scale.",
+      "steps_to_solve": [
+        "Values refresh. Co-create with new cohorts.",
+        "Storytelling engine. Monthly examples of values in action.",
+        "Hiring integration. Values assessment in interviews.",
+        "Performance linkage. 20% weight in reviews.",
+        "Onboarding immersion. Values workshop day 1.",
+        "Leader modeling. Exec stories of values trade-offs.",
+        "Recognition currency. Values-based peer awards.",
+        "Departure analysis. Values misfit patterns."
+      ],
+      "alternate_approaches": [
+        "Culture carriers program.",
+        "Values hackathons.",
+        "External culture benchmarking."
+      ]
+    }
+  }
+]
+
